@@ -2,18 +2,18 @@ Centrora Security is an all-in-one system providing the overall security solutio
 
 We help business of all sizes with:
 
-*WordPress & Joomla Modules*
+**WordPress & Joomla Modules**
 
 Easy to download modules for WordPress and Joomla websites.
 
-*High Security Online Protection*
+**High Security Online Protection**
 
 Basic free protection services through to premium services at a great price.
 
-*Free Malware Removal*
+**Free Malware Removal**
 
 A free malware removal service on websites for all annual subscribers
 
-*Cyber Crime Info and What To Do*
+**Cyber Crime Info and What To Do**
 
 Regular information on what you can do to protect yourself from cyber crime.

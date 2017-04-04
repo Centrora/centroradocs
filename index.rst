@@ -42,6 +42,8 @@ The documentation for Centrora Security is organized into a couple of sections:
 
    install-joomla
    install-wp
+   install-centrora-suite
+   install-
 
 
 .. _getting-started-docs:
