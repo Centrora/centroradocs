@@ -1,18 +1,18 @@
-Welcome to Dreamtrue's documentation!
+Welcome to Centrora Security's documentation!
 ==================================
 
-The documentation for Dreamtrue is organized into a couple of sections:
+The documentation for Centrora Security is organized into a couple of sections:
 
 * :ref:`about-docs`
 * :ref:`prerequisites-docs`
 * :ref:`install-docs`
-* :ref:`getting-started-docs`
-* :ref:`migration-docs`
-* :ref:`general-docs`
-* :ref:`channels-docs`
-* :ref:`contributing-docs`
-* :ref:`rest-api-docs`
-* :ref:`appendix`
+* :ref:`virus-cleaning`
+* :ref:`firewall`
+* :ref:`backup`
+* :ref:`automation`
+* :ref:`miscellaneous`
+* :ref:`faqs`
+* :ref:`video-tutorials`
 
 
 .. _about-docs:
@@ -21,7 +21,7 @@ The documentation for Dreamtrue is organized into a couple of sections:
    :maxdepth: 2
    :caption: About
 
-   about-Dreamtrue
+   about-centrora
 
 
 .. _prerequisites-docs:
@@ -30,8 +30,8 @@ The documentation for Dreamtrue is organized into a couple of sections:
    :maxdepth: 2
    :caption: Prerequisites
 
-   prerequisites-software
-   prerequisites-hardware
+   prerequisites
+   prerequisites
 
 
 .. _install-docs:
