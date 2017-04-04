@@ -40,8 +40,8 @@ The documentation for Dreamtrue is organized into a couple of sections:
    :maxdepth: 2
    :caption: Installation & Update
 
-   install-source
-   install-centos
+   install-joomla
+   install-wp
    install-debian
    install-ubuntu
    install-suse
