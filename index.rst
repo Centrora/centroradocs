@@ -38,16 +38,10 @@ The documentation for Dreamtrue is organized into a couple of sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Installation & Update
+   :caption: Installation
 
    install-joomla
    install-wp
-   install-debian
-   install-ubuntu
-   install-suse
-   install-elasticsearch
-   install-docker-compose
-   install-update
 
 
 .. _getting-started-docs:
