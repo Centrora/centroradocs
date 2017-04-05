@@ -10,7 +10,7 @@ The documentation for Centrora Security is organized into a couple of sections:
 * :ref:`firewall`
 * :ref:`backup`
 * :ref:`automation`
-* :ref:`miscellaneous`
+* :ref:`email`
 * :ref:`faqs`
 * :ref:`video-tutorials`
 
@@ -45,23 +45,26 @@ The documentation for Centrora Security is organized into a couple of sections:
    install-suite-whm
 
 
-.. _getting-started-docs:
+.. _virus-cleaning:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting started
+   :caption: Malware Cleaning
 
-   getting-started-first-steps
+   dynamic-scanner
+   other-scanning-tools
 
 
-.. _migration-docs:
+.. _firewall:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Migration
+   :caption: Firewall
 
-   migration-otrs
-   migration-zendesk
+   config-firewall-settings
+   manage-ip-variables
+   file-upload-check
+   country-blocking
 
 
 .. _general-docs:
