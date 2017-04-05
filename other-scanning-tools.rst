@@ -8,7 +8,7 @@ Other Scanning Tools
 .. _core-directories-scanner:
 
 .. toctree::
-   :maxdepth:
+   :maxdepth: 2
    :caption: Core Directories Scanner
 
    core-directories-scanner
@@ -17,7 +17,7 @@ Other Scanning Tools
 .. _modified-file-scanner:
 
 .. toctree::
-   :maxdepth:
+   :maxdepth: 2
    :caption: Modified File Scanner
 
    modified-file-scanner
