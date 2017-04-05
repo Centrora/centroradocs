@@ -31,7 +31,6 @@ The documentation for Centrora Security is organized into a couple of sections:
    :caption: Prerequisites
 
    prerequisites
-   prerequisites
 
 
 .. _install-docs:
@@ -43,7 +42,7 @@ The documentation for Centrora Security is organized into a couple of sections:
    install-joomla
    install-wp
    install-centrora-suite
-   install-
+   install-suite-whm
 
 
 .. _getting-started-docs:

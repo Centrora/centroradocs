@@ -19,6 +19,7 @@ Now let’s start.
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/009_Suite_Files.jpg
 
 3- Go to the Centrora installation page at::
+
    http://your_domain/centrora/installation/index.php
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/010_Suite_Install.jpg
@@ -29,19 +30,25 @@ Now let’s start.
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/011_Suite_Database.jpg
 
-6- You can just click ‘Next’ and ignore the FTP Configuration if you don’t need it.
+6- You can just click "Next" and ignore the FTP Configuration if you don't need it.
 
-<b>7.</b> In the Configuration step, add your preferred site name for the Centrora system and also the admin account info.
+7- In the Configuration step, add your preferred site name for the Centrora system and also the admin account info.
 
-<b>8.</b> Remove the installation folder in the final step. <strong>Please note:</strong> if you have trouble automatically removing the installation folder due to the file ownership or permission reason, you need to manually remove that folder, at the location like /public_html/centrora/installation.
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/012_Suite_Remove_Installation.jpg" alt="Remove Installation Folder" width="900" />
+8- Remove the installation folder in the final step. **Please note:** if you have trouble automatically removing the installation folder due to the file ownership or permission reason, you need to manually remove that folder, at the location like
+``/public_html/centrora/installation``
 
-<b>9.</b> We can load the back-end by clicking <strong>“Administrator”</strong> button and login the new Centrora system.<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/013_Suite_Login.jpg" alt="Suite Login" width="900" />
+..image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/012_Suite_Remove_Installation.jpg
 
-<b>10.</b> After login, please go to the menu “Management“ --&gt; “Install/Uninstall” and follow the warning message to finalize the database installation.
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/014_Suite_Install_DB.jpg" alt="Install Database" width="900" />
+9- We can load the back-end by clicking ``Administrator`` button and login the new Centrora system.
 
-11. Finally, please enable the plugin “System – Centrora Security Activation Plugin” in Plugin Manager under the Management Menu.
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/015_Suite_Activate_Plugin.jpg" alt="Enable Plugin" width="900" />
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/013_Suite_Login.jpg
 
-Installation finished. Now Centrora Suite is ready to be at your service!
+10- After login, please go to the menu ``Management`` --> ``Install/Uninstall`` and follow the message to finalize the database installation.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/014_Suite_Install_DB.jpg
+
+11. Finally, please make sure the plugin ``System – Centrora Security Activation Plugin`` is enabled in Plugin Manager under the Management Menu.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/015_Suite_Activate_Plugin.jpg
+
+The installation is done. Now Centrora Suite is ready to be at your service!

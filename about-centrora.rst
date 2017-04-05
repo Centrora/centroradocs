@@ -1,3 +1,6 @@
+About Centrora Security
+************************
+
 Centrora Security is an all-in-one system providing the overall security solutions for the websites. It includes the Virus Scanner, Firewall, and Backup Tool, with the built-in schedule management offering a high level of automation. Our mission is to take the stress out of website security for our customers so they can focus on running their businesses.
 
 We help business of all sizes with:
