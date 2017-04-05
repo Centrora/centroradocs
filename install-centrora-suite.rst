@@ -1,32 +1,36 @@
-Install Centrora Suite version on the server
+Install Centrora Suite version
 ********************************************
+
 Centrora Security Suite is a standalone system which is installed like a separate site on the server if you have a shared host. It can be also installed at the Server Root for the Dedicated Server / VPS.
 
 Before the installation, please make sure that:
 
-    1. You have backed-up your current websites, including all files and database just in case there are any accidents!
- 	2. You have created a database that is specific for the Security Suite and is different from the databases of any of your existing websites!
- 	3. You are installing the Centrora Security into a folder that is different from any of your existing websites! Such as:
-       /public_html/centrora/
+1. You have backed-up your current websites, including all files and database just in case there are any accidents!
+2. You have created a database that is specific for the Security Suite and is different from the databases of any of your existing websites!
+3. You are installing the Centrora Security into a folder that is different from any of your existing websites! Such as: ``/public_html/centrora/``.
 
 Now let’s start.
 
-1. Download the Centrora installation package from Centrora website.
+1- Download the Centrora installation package from Centrora website.
+`Download Centrora <https://www.centrora.com/download/>`_ --> Download Standalone Version.
 
-    [Download Centrora](https://www.centrora.com/download/) --> Download Standalone Version.
+2- Extract the downloaded package on your computer and upload the files to the folder which is for the Centrora installation via FTP, say /public_html/centrora/. Or, you can directly upload the downloaded ".zip" pack to the server and extract it directly via the control panel file management. Then the files will look like this on the server,
 
-2. Extract the downloaded package on your computer and upload the files to the folder which is for the Centrora installation via FTP, say /public_html/centrora/. Or, you can directly upload the downloaded ".zip" pack to the server and extract it directly via the control panel file management. Then the files will look like this on the server,
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/009_Suite_Files.jpg" alt="Suite Files" width="900" />
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/009_Suite_Files.jpg
 
-3. Go to the Centrora installation page at http://your_domain/centrora/installation/index.php
+3- Go to the Centrora installation page at::
+
+   http://your_domain/centrora/installation/index.php
+
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/010_Suite_Install.jpg
 
-4. Follow the steps to do the installation.
+4- Follow the steps to start the installation.
 
-<b>5.</b> At Step 4: Database, enter the information of the new database which you just created for the Centrora installation.
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/011_Suite_Database.jpg" alt="Suite Database" width="900" />
+5- At Step 4: Database, enter the information of the new database which you just created for the Centrora installation.
 
-<b>6.</b> You can just click ‘Next’ and ignore the FTP Configuration if you don’t need it.
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/011_Suite_Database.jpg
+
+6- You can just click ‘Next’ and ignore the FTP Configuration if you don’t need it.
 
 <b>7.</b> In the Configuration step, add your preferred site name for the Centrora system and also the admin account info.
 

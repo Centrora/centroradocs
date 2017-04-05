@@ -27,4 +27,4 @@ Now Centrora Security is ready to use and we can start the configurations.
 
 **Manually Install Centrora Plugin on Wordpress.**
 If you have troubles in intalling it from WrodPress using the above method, please try the manual way to install it. Please refer to the video.
-`Manually INstall Centrora on WordPress <https://www.youtube.com/embed/ikK36XTI5wA>`_
+`Manually Install Centrora on WordPress <https://www.youtube.com/embed/ikK36XTI5wA>`_
