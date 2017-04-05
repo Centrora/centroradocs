@@ -19,7 +19,6 @@ Now let’s start.
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/009_Suite_Files.jpg
 
 3- Go to the Centrora installation page at::
-
    http://your_domain/centrora/installation/index.php
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/010_Suite_Install.jpg
