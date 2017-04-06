@@ -36,7 +36,8 @@ It will prompt the following dialogue asking you the path of the Centrora instal
 
 4. Install Centrora Security Suite in the account.
 
-The Centrora Suite files have been
+The Centrora Suite files have been downloaded to the user account "centrorasuite" which you have created previously.
+
 After the database is created, access the File Manager and browse the ‘public_html’ folder, click the ‘Upload’ button to upload the Centrora Security Suite package.</li>
 </ol>
 <img class="aligncenter" src="https://cdn.centrora.com/images/tutorial/whm/tO78Ct.png" alt="Firewall Protection" width="604" height="207" />
