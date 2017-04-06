@@ -36,7 +36,7 @@ The documentation for Centrora Security is organized into a couple of sections:
 .. _install-docs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Installation
 
    install-wp
