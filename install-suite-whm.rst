@@ -12,8 +12,7 @@ Please do the installation following the below steps.
 
 .. image:: https://cdn.centrora.com/images/tutorial/whm/CrXpfI.png
 
-<ol start="2">
- 	<li>Once the account is created, access the cPanel control panel for this new account, and go to the MySQL Database section to create a new database and user account for Centrora Security</li>
+2-  Once the account is created, access the cPanel control panel for this new account, and go to the MySQL Database section to create a new database and user account for Centrora Security</li>
 </ol>
 &nbsp;
 
