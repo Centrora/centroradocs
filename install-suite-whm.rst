@@ -4,14 +4,12 @@ Install Centrora on WHM Server
 
 We are glad to announce that the new WHM / cPanel addon has been released to help you speed up the installation of Centrora Security onto your WHM server. This can enhance the firewall protection for your server.
 
-Please do the installation following the below steps.
-
-.. highlights:: The installation on WHN will need the SSH login.
+Please do the installation following the below steps. **Please note that the installation on WHN will need the SSH login.**
 
 1. Create new account in WHM
 ---------------------------------
 
-Login WHM control panel, Search ‘Create Account’ in the search bar and create a new account for the Centrora Security Suite installation.
+Login WHM control panel, Search ‘Create Account’ in the search bar and create a new account for the Centrora Security Suite installation with a subdomain.
 
 .. note:: The user account name must NOT be "centrora". You can use other account names like "centrorasuite".
 
@@ -28,9 +26,17 @@ Once the account is created, access the cPanel control panel for this new accoun
 3. Run Centrora WHM install script
 -----------------------------------
 
+Now, please access the SSH server and run the script (in one line)::
 
+   cd ~/ && wget https://raw.githubusercontent.com/Centrora/centrora-suite/master/administrator/manifests/whm/install.sh && sh install.sh
 
+It will prompt the following dialogue asking you the path of the Centrora installation, please enter the path and the account. Take the above account name "centrorasuite" as the example, the path is ``/home/centrorasuite/public_html/`` and the account is ``centrorasuite``. The installation will be continued like this,
 
+.. image:: https://cdn.centrora.com/images/tutorial/whm/i0X58W.png
+
+4. Install Centrora Security Suite in the account.
+
+The Centrora Suite files have been
 After the database is created, access the File Manager and browse the ‘public_html’ folder, click the ‘Upload’ button to upload the Centrora Security Suite package.</li>
 </ol>
 <img class="aligncenter" src="https://cdn.centrora.com/images/tutorial/whm/tO78Ct.png" alt="Firewall Protection" width="604" height="207" />
