@@ -15,7 +15,10 @@ Login WHM control panel, Search ‘Create Account’ in the search bar and creat
 
 .. image:: https://cdn.centrora.com/images/tutorial/whm/CrXpfI.png
 
-2-  Once the account is created, access the cPanel control panel for this new account, and go to the MySQL Database section to create a new database and user account for Centrora Security.
+2. Create new database and user
+--------------------------------
+
+Once the account is created, access the cPanel control panel for this new account, and go to the MySQL Database section to create a new database and user account for Centrora Security.
 
 .. image:: https://cdn.centrora.com/images/tutorial/whm/lZlVli.png
 
