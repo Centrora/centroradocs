@@ -6,14 +6,14 @@ We are glad to announce that the new WHM / cPanel addon has been released to hel
 
 Please do the installation following the below steps.
 
-.. note::
+.. highlights:: The installation on WHN will need the SSH login.
 
 1. Create new account in WHM
 ---------------------------------
 
 Login WHM control panel, Search ‘Create Account’ in the search bar and create a new account for the Centrora Security Suite installation.
 
-.. rubric:: The user account name must NOT be "centrora". You can use other account names like "centrorasuite".
+.. note:: The user account name must NOT be "centrora". You can use other account names like "centrorasuite".
 
 .. image:: https://cdn.centrora.com/images/tutorial/whm/CrXpfI.png
 
