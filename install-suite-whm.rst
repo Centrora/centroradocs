@@ -6,24 +6,29 @@ We are glad to announce that the new WHM / cPanel addon has been released to hel
 
 Please do the installation following the below steps.
 
+.. note::
+
 1. Create new account in WHM
-------------------------------
+---------------------------------
 
 Login WHM control panel, Search ‘Create Account’ in the search bar and create a new account for the Centrora Security Suite installation.
 
-.. note:: The user account name must NOT be "centrora". You can use other account names like "centrorasuite".
+.. rubric:: The user account name must NOT be "centrora". You can use other account names like "centrorasuite".
 
 .. image:: https://cdn.centrora.com/images/tutorial/whm/CrXpfI.png
 
 2. Create new database and user
---------------------------------
+---------------------------------
 
 Once the account is created, access the cPanel control panel for this new account, and go to the MySQL Database section to create a new database and user account for Centrora Security.
 
 .. image:: https://cdn.centrora.com/images/tutorial/whm/lZlVli.png
 
 
-3-
+3. Run Centrora WHM install script
+-----------------------------------
+
+
 
 
 After the database is created, access the File Manager and browse the ‘public_html’ folder, click the ‘Upload’ button to upload the Centrora Security Suite package.</li>
