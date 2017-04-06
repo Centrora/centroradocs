@@ -1,5 +1,5 @@
 Welcome to Centrora Security's documentation!
-==================================
+==============================================
 
 The documentation for Centrora Security is organized into a couple of sections:
 
