@@ -37,7 +37,7 @@ Now let’s start.
 8- Remove the installation folder in the final step. **Please note:** if you have trouble automatically removing the installation folder due to the file ownership or permission reason, you need to manually remove that folder, at the location like
 ``/public_html/centrora/installation``
 
-..image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/012_Suite_Remove_Installation.jpg
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/012_Suite_Remove_Installation.jpg
 
 9- We can load the back-end by clicking ``Administrator`` button and login the new Centrora system.
 

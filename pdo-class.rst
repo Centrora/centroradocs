@@ -27,4 +27,4 @@ If you manage the server or know how to customize the PHP configurations, please
    extension=pdo.so
    extension=pdo_mysql.so1
 
-Once the PDO is added to the PHP environment, issue will be resolved.
+Once PDO is added to the PHP environment, issue will be resolved.
