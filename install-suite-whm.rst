@@ -44,7 +44,7 @@ The Centrora Suite files now have been downloaded to the user account "centroras
 5. Activate the Premium.
 -------------------------
 
-After the installation is done, please login the system and activate the premium service in the menu ``My Premium``.
+After the installation is done, please login the system and activate the premium service in the menu ``My Premium``. Please also refer to: :ref:`activate-premium`.
 
 6. Centrora Security is loaded in WHM.
 --------------------------------------
