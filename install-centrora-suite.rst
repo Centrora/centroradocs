@@ -1,4 +1,4 @@
-Install Centrora Suite version
+Install Centrora Suite on a Shared Host
 ********************************************
 
 Centrora Security Suite is a standalone system which is installed like a separate site on the server if you have a shared host. It can be also installed at the Server Root for the Dedicated Server / VPS.
