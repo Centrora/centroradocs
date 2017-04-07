@@ -15,6 +15,6 @@ First, after the Centrora Security installation, please go to the menu ``My Prem
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/022_Activate%20License.jpg
 
-**Step 3.** If you don't have any licenses yet or all licenses have been used up, you might need to get more licenses. Please choose the proper license package in the store of Centrora website. After the subscription, please return to you Centrora ``My Premium`` and refresh the page. Licenses will show up and please follow the :ref:`Step 2 <step-2>` above to activate the premium service.
+**Step 3.** If you don't have any licenses yet or all licenses have been used up, you might need to get more licenses. Please choose the proper license package in the store of Centrora website. After the subscription, please return to you Centrora ``My Premium`` and refresh the page. Licenses will show up and please follow the Step 2 above to activate the premium service.
 
 Now you have the premium service activated and all functions and features have been available. Please note, each centrora installation needs a separate license, therefore, if you have more installations of Centrora, you will need more licenses to activate the premium service for them all.
