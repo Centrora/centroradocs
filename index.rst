@@ -11,7 +11,7 @@ The documentation for Centrora Security is organized into a couple of sections:
 * :ref:`backup`
 * :ref:`automation`
 * :ref:`email`
-* :ref:`faqs`
+* :ref:`troubleshooting`
 * :ref:`video-tutorials`
 
 
@@ -43,6 +43,8 @@ The documentation for Centrora Security is organized into a couple of sections:
    install-joomla
    install-centrora-suite
    install-suite-whm
+   activate-premium
+   uninstall
 
 
 .. _virus-cleaning:
@@ -71,66 +73,42 @@ The documentation for Centrora Security is organized into a couple of sections:
 
 .. toctree::
    :maxdepth: 2
-   :glob:
-   :caption: General
+   :caption: Backup
 
-   general-ticket
-   general-search
-   general-glossary
+   git-backup
+   restore
 
 
-.. _channels-docs:
+.. _automation:
 
 .. toctree::
    :maxdepth: 2
-   :glob:
-   :caption: Channels
+   :caption: Automation
 
-   channel-mail
-   channel-form
-   channel-chat
-   channel-twitter
-   channel-facebook
-   channel-fetchmail
+   automation
 
-.. _contributing-docs:
+
+.. _email:
 
 .. toctree::
    :maxdepth: 2
-   :glob:
-   :caption: Contributing / Development
+   :caption: Email Settings
 
-   contributing-start
-   contributing-branches
-   contributing-packages
-   contributing-ci
-   contributing-code-quality
-   contributing-install-docker
-   contributing-install-vagrant
-   contributing-install-source
+   email
 
-.. _rest-api-docs:
+
+.. _troubleshooting:
 
 .. toctree::
    :maxdepth: 2
-   :glob:
-   :caption: REST API
+   :caption: Troubleshooting
 
-   api-intro
-   api-user
-   api-organization
-   api-group
-   api-ticket
-   api-ticket-state
-   api-ticket-priority
-   api-ticket-attachment
-   api-ticket-article
-   api-notification
-   api-object
+   pdo-class
 
+
+.. _video-tutorials:
 .. toctree::
    :maxdepth: 2
-   :glob:
-   :caption: Appendix
+   :caption: Video Tutorials
 
-   appendix-privacy
+   video-tutorials

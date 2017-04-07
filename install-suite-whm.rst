@@ -9,7 +9,7 @@ Please do the installation following the below steps. **Please note that the ins
 1. Create new account in WHM
 ---------------------------------
 
-Login WHM control panel, Search ‘Create Account’ in the search bar and create a new account for the Centrora Security Suite installation with a subdomain.
+Login WHM control panel, Search ‘Create Account’ in the search bar and create a new account for the Centrora Security Suite installation with a sub-domain.
 
 .. note:: The user account name must NOT be "centrora". You can use other account names like "centrorasuite".
 
@@ -36,7 +36,10 @@ It will prompt the following dialogue asking you the path of the Centrora instal
 
 4. Install Centrora Security Suite in the account.
 
-The Centrora Suite files have been downloaded to the user account "centrorasuite" which you have created previously.
+The Centrora Suite files have been downloaded to the user account "centrorasuite" which you have created previously. Access the Centrora installation page at: ``http://sub-domain_for_Centrora_account/installation/index.php`` and follow the installation wizard to complete it.
+
+
+
 
 After the database is created, access the File Manager and browse the ‘public_html’ folder, click the ‘Upload’ button to upload the Centrora Security Suite package.</li>
 </ol>
