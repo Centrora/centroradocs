@@ -4,8 +4,9 @@ Fatal error: Class PDO not found
 
 If you encounter the error ``Fatal error: Class 'PDO' not found`` when the OSE Firewall is activated, this indicates the Class 'PHP Data Objects' is not loaded in your PHP environment. You can do a check to confirm if the class exists.
 
-1. Make a new php file in your site root directory with name ``check_pdo.php``.
-2. Put the below codes into the file::
+1- Make a new php file in your site root directory with name ``check_pdo.php``.
+
+2- Put the below codes into the file::
 
    <?php
      if (extension_loaded('pdo')) {
