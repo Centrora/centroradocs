@@ -7,8 +7,6 @@ We strongly recommend you to subscribe to our Premium Service to enjoy Centrora 
 
 First, after the Centrora Security installation, please go to the menu ``My Premium``.
 
-.. _step-2:
-
 **Step 1.** If you have had an account with Centrora, please login directly at the left panel. If you don't have an account yet, please create a new one using the form at the right side or you can register the account on our website `www.centrora.com <http://www.centrora.com>`_. Then please login in Centrora with the new account.
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/021_My%20Premium.jpg
