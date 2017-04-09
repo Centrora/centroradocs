@@ -15,7 +15,7 @@ Joomla! Version:
 
 1. Remove the tables and data from the database first in ``Centrora --> Management → Install/Uninstall``.
 2. Disable the Centrora plugin is Joomla! Plugins manager.
-3. Uninstall the component ``OSE Firewall``and plugin ``Centrora`` in Joomla! Extensions Management.
+3. Uninstall the component ``OSE Firewall`` and plugin ``Centrora`` in Joomla! Extensions Management.
 
 Centrora Suite Version:
 -------------------------
