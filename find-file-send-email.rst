@@ -25,6 +25,6 @@ Then we can do a test. Upload a ``test.php`` to the site ``/tmp`` directory. Add
 
 Run the test file at *http://your_site_domain/tmp/test.php*. If the email is sent, it will be logged in the ``phpmail.log`` file which we defined previously::
 
-   | [06-Oct-2016 01:38:43 America/Chicago] mail() on [/home/domain/public_html/tmp/test.php:9]: To: Jack@test.com -- Headers:
+   [06-Oct-2016 01:38:43 America/Chicago] mail() on [/home/domain/public_html/tmp/test.php:9]: To: Jack@test.com -- Headers:
 
 Here we can find the file location which sends the email. After setting all these, we can check the mail log file next day. We can then know all files sending emails during the period.
