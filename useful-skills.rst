@@ -1,5 +1,5 @@
 Useful skills
 ***************
 
-:ref:`track-file-change`_
+:ref:`track-file-change`
 
