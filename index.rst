@@ -55,6 +55,7 @@ The documentation for Centrora Security is organized into a couple of sections:
 
    dynamic-scanner
    other-scanning-tools
+   useful-skills
 
 
 .. _firewall:
