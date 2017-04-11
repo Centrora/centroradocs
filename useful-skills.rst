@@ -3,18 +3,10 @@ Useful skills
 
 
 .. toctree::
-   :maxdepth:
-   :caption: Track File/Directory Time
+   :maxdepth: 2
 
    track-file-change
-
-
-.. toctree::
-   :maxdepth:
-   :caption: Find File Sending Emails
-
    find-file-send-email
-
 
 
 
