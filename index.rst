@@ -39,7 +39,7 @@ The documentation for Centrora Security is organized into a couple of sections:
    :maxdepth: 1
    :caption: Installation
 
-   install-wp
+   install-wordpress
    install-joomla
    install-centrora-suite
    install-suite-whm
