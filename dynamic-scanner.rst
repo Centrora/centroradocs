@@ -71,11 +71,11 @@ After clicking the View button, the Scanner will pop out a window to show the fi
 
 We have some optional Actions to deal with the files after reviewing the codes.
 
-* A. We can choose to clean the highlighted suspicious codes if the codes are just injected into a functional file. Use the "Clean" button on the code viewing window or after selecting the file in the scan result panel.
-* B. Alternatively, if you find that all the codes in the file are malware codes, please "Quarantine" the file entirely because the file could be uploaded by the hacker.
-* C. If you think it's a false alert, you can "Mark as Clean" to whitelist it.
-* D. Also, if you find the website doesn't run correctly after you clean or quarantine some file, you can use "Restore" button to restore it to the original copy before the operation.
-* E. If you find that the Scanner only marks the key patterns of the virus, rather than highlighting all the codes infected, the file needs to be cleaned manually. You need to do this via an FTP or the File Manager in your Host Control Panel.
+* 1. We can choose to clean the highlighted suspicious codes if the codes are just injected into a functional file. Use the "Clean" button on the code viewing window or after selecting the file in the scan result panel.
+* 2. Alternatively, if you find that all the codes in the file are malware codes, please "Quarantine" the file entirely because the file could be uploaded by the hacker.
+* 3. If you think it's a false alert, you can "Mark as Clean" to whitelist it.
+* 4. Also, if you find the website doesn't run correctly after you clean or quarantine some file, you can use "Restore" button to restore it to the original copy before the operation.
+* 5. If you find that the Scanner only marks the key patterns of the virus, rather than highlighting all the codes infected, the file needs to be cleaned manually. You need to do this via an FTP or the File Manager in your Host Control Panel.
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/109_Dynamic_Scanner_Action.jpg
 
