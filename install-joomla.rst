@@ -26,7 +26,7 @@ After we get the installation success message, let's go to the menu ``Components
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/007_Joomla!_Install_DB.jpg
 
 **Step 4.**
-Also, please make sure the Centrora System system plugin is enabled. You can enable it by clicking the ``Fix it`` button if you see the warning message in the above Management menu. Or you can go to Joomla! Plugins Management, Joomla! ``Extensions`` --> ``Plugins`` and search for "Centrora". Enable it.
+Also, please make sure the Centrora System system plugin is enabled. You can enable it by clicking the ``Fix it`` button if you see the notice message in the above Management menu. Or you can go to Joomla! Plugins Management, Joomla! ``Extensions`` --> ``Plugins`` and search for "Centrora". Enable it.
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/008_Joomla!_Enable_Plugin.jpg
 
