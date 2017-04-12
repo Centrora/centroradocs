@@ -1,32 +1,56 @@
 Dynamic Scanner and Virus Cleaning
 **********************************
 
-<h3>Virus Scanner - Dynamic Scan</h3>
-Centrora Security system integrates a Virus Scanner - Online Antivirus tool for scanning and cleaning the website which has been compromised. Currently, the scanner is available for Free users, however, the detailed scan result and cleaning operations are only available for Premium Subscribers. Also, please note that the scanner only scans the file system but not the database.
+Centrora Security system integrates a Virus Scanner - Online Anti-Virus tool for scanning and cleaning the website which has been compromised. Currently, the scanner is available for Free users, however, the detailed scan result and cleaning tools are only available for Premium Subscribers. Also, please note that the scanner only scans the file system but not the database.
 
 Please refer to the video for How to do a quick dynamic scan for the website.
-<iframe width="760" height="500" src="https://www.youtube.com/embed/v3EmRsipAWM" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+`Do A Dynamic Scan for the website <https://www.youtube.com/embed/v3EmRsipAWM>`_
 
 Also, watch the video for how to review the scan result and clean the files.
-<iframe width="760" height="500" src="https://www.youtube.com/embed/HyL7mMv3tk4" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+`How to Review the Scan Result and Clean the Files <https://www.youtube.com/embed/HyL7mMv3tk4>`_
 
-Or, please follow the below steps to do a full website scan.
+Or, please follow the below steps in details to do a full website scan.
 
-Let's start a scan now. please go to the menu <strong>Search for Malware</strong> → <strong>Dynamic Scanner</strong>. It will show the main operation panel of the scanner.
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/100_Dynamic_Scanner.jpg" alt="Dynamic Scanner" width="900" />
+1. Dynamic Scanner
+-------------------
 
-<strong>1.</strong> First, please configure file extensions, maximum file size, etc for the scan in the button "<strong>Config Setup</strong>". The unit for file size is MB. <strong>Maximum Database Connection</strong> is an advanced parameter. If you know the DB connection limit on your server, please set the parameter accordingly; and please set it as 50 or 100 if you have no idea about it. For the Max Execution Time, you can set it as 300.
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/101_Dynamic_Scanner_Config.jpg" alt="Config Config Setup" width="900" />
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/102_Dynamic_Scanner_Configuration.jpg" alt="Configuration" width="900" />
+Let's start a scan now. please go to the menu ``Search for Malware → Dynamic Scanner``. It will show the main operation panel of the scanner.
 
-<strong>2.</strong> <strong>Select Scan Types</strong> to choose what types of virus you are going to scan. Generally, if you have no idea about it, please just choose <strong>Deep Scan</strong> to do a full scan.
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/103_Dynamic_Scanner_Scan_Types.jpg" alt="Select Scan Types" width="900" />
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/100_Dynamic_Scanner.jpg
 
-<strong>3.</strong> Now we can start a scan. By simply click the <strong>START</strong> button, it will do a full website scan.
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/104_Dynamic_Scanner_Start_a_Scan.jpg" alt="Start a Scan" width="900" />
+2. Configurations
+-------------------
 
-If you just want to scan a specific target or some folder outside of the current website root, you can use <strong>Scan Specific Folder</strong> to choose the folder or define the path to scan. (1) Click the small folder icon to extend the sub-folders/files tree under the folder. (2) Please note that if you enter the path value manually, it requires the absolute path. (3) Click the button to start the scan.
-<img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/105_Dynamic_Scanner_Scan_Specific_Folder.jpg" alt="Scan Specific Folder" width="900" />
+First, please configure file extensions, maximum file size, etc for the scan in the button ``Config Setup``. The unit for file size is MB. ``Maximum Database Connection`` is an advanced parameter. If you know the DB connection limit on your server, please set the parameter accordingly; and please set it as 100 if you have no idea about it. For the ``Max Execution Time``, we recommend setting it as 300.
+
+.. iamge:: https://cdn.protect-website.co/centrora_web/images/Tutorials/101_Dynamic_Scanner_Config.jpg
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/102_Dynamic_Scanner_Configuration.jpg
+
+3. Scan Types
+----------------
+
+Select Scan Types to choose what types of virus you are going to scan. Generally, if you have no idea about it, please just choose ``Deep Scan`` to do a full scan.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/103_Dynamic_Scanner_Scan_Types.jpg
+
+4. Start A Scan
+-----------------
+
+Now we can start a scan. By simply clicking the ``START`` button, it will do a full website scan.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/104_Dynamic_Scanner_Start_a_Scan.jpg
+
+If you just want to scan a specific target or some folder outside of the current website root, you can use ``Scan Specific Folder`` to choose the folder or define the path to scan.
+
+1. Click the small folder icon to extend the sub-folders/files tree under the folder.
+2. Please note that if you enter the path value manually, it requires the absolute path.
+3. Click the button to start the scan.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/105_Dynamic_Scanner_Scan_Specific_Folder.jpg
+
+5. Scan Progress
+--------------------
 
 <strong>4.</strong> During the scan, the main panel will show the progress and also the status of the server memory and CPU usage. During the scan, you can use <strong>STOP</strong> button to cease the process and then use "Continue" button to re-start it from the previous stop point. After the scan completes, it will give a brief scan result.
 <img class="alignnone" src="https://cdn.protect-website.co/centrora_web/images/Tutorials/106_Dynamic_Scanner_Scan_Complete.jpg" alt="Scan Complete" width="900" />
