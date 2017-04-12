@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Dreamtrue documentation build configuration file, created by
+# Centrora documentation build configuration file, created by
 # sphinx-quickstart on Tue Nov  8 00:47:03 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -48,9 +48,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Dreamtrue'
-copyright = u'2017, Dreamtrue'
-author = u'Dreamtrue'
+project = u'Centrora'
+copyright = u'2017, Centrora'
+author = u'Centrora'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -135,7 +135,7 @@ html_theme_path = ["themes"]
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = u'Dreamtrue v1.0.0'
+# html_title = u'Centrora v1.0.0'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -235,7 +235,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Dreamtruedoc'
+htmlhelp_basename = 'Centroradoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -261,8 +261,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Dreamtrue.tex', u'Dreamtrue Documentation',
-     u'Dreamtrue', 'manual'),
+    (master_doc, 'Centrora.tex', u'Centrora Documentation',
+     u'Centrora', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -303,7 +303,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'Dreamtrue', u'Dreamtrue Documentation',
+    (master_doc, 'Centrora', u'Centrora Documentation',
      [author], 1)
 ]
 
@@ -318,8 +318,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Dreamtrue', u'Dreamtrue Documentation',
-     author, 'Dreamtrue', 'One line description of project.',
+    (master_doc, 'Centrora', u'Centrora Documentation',
+     author, 'Centrora', 'One line description of project.',
      'Miscellaneous'),
 ]
 
