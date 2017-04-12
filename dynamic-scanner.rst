@@ -5,7 +5,6 @@ Centrora Security system integrates a Virus Scanner - Online Anti-Virus tool for
 
 Please refer to the video for How to do a quick dynamic scan for the website.
 `Do A Dynamic Scan for the website <https://www.youtube.com/embed/v3EmRsipAWM>`_
-
 Also, watch the video for how to review the scan result and clean the files.
 `How to Review the Scan Result and Clean the Files <https://www.youtube.com/embed/HyL7mMv3tk4>`_
 
