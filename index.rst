@@ -106,6 +106,7 @@ The documentation for Centrora Security is organized into a couple of sections:
    :caption: Troubleshooting
 
    pdo-class
+   joomla-fabrik-conflict
 
 
 .. _video-tutorials:
