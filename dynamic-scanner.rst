@@ -1,3 +1,5 @@
+.. _dynamic-scan:
+
 Dynamic Scanner and Virus Cleaning
 **********************************
 
