@@ -15,5 +15,9 @@ Core Directories Scanner will scan the website to compare the core system files 
 Modified File Scanner
 -----------------------
 
-There are some cases that the `Dynamic Scanner <dynamic-scan>`_ cannot finds all virus files on the sites, for example:
-1.
+Sometimes, the `Dynamic Scanner <dynamic-scanner>`_ cannot finds all virus files on the sites, for example:
+
+1. The hacker uploads the hacking files in a package and not all files there contains the virus patterns;
+2. The files are encoded in a special way to hide from the scanner.
+
+In this case, the Modified File Scanner may help which can show the files modified within a time range which we can define. For example, if we found
