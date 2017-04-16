@@ -20,4 +20,15 @@ Sometimes, the `Dynamic Scanner <dynamic-scanner>`_ cannot finds all virus files
 1. The hacker uploads the hacking files in a package and not all files there contains the virus patterns;
 2. The files are encoded in a special way to hide from the scanner.
 
-In this case, the Modified File Scanner may help which can show the files modified within a time range which we can define. For example, if we found
+In this case, the Modified File Scanner may help which can show the files modified within a time range which we can define. For example, if we think the site was hacked on date X or we find some suspicious files with the date X, we can use Modified File Scanner to find out all files changed around date X, say (X-3, X+3). Then we can get all files which could be involved in the hacking.
+
+Go to the menu ``Search for Malware --> Modified File Scanner``, define the date range and the scan path. Then ``Start scanning``.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/121_Modified_File_Scanner.jpg
+
+MD5 Hash Scanner
+-----------------
+
+MD5 Hash Scanner will scan the file MD5 Hash of the core system files to report the suspicions. Please update MD5 Hash database before the scan.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/122_MD5_Hash_Scanner.jpg
