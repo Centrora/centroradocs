@@ -23,7 +23,9 @@ We can also manage the IPs in the same menu with the functional buttons.
 * **Update Host**: To keep the host information of the IP up to date.
 * **Import/Export IP from/to CSV**: The tool for importing or exporting IP rules.
 
-Check IP record details
+.. _whitelist-variable:
+
+Check IP record details and Whitelist
 -------------------------------------
 
 Generally we need to check the IP record details to find the reason for being logged in IP Control to judge if it’s a real hacking attack or a false alert, especially when you just start using the Firewall system. Based on the detailed information, you can whitelist the false alerted variables to make the system fit your site’s functions and make it more stable. To do this, please click on Action following an IP to review the details first.
@@ -33,8 +35,6 @@ Generally we need to check the IP record details to find the reason for being lo
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/312_IP_Details.jpg
 
 As the screenshot shows, you can find two important values ``Detected Variable`` and ``Detected Content``. From the example of test with index.php?a=%27union, the variable is “get.a” and the blocked content is “union”. You can know it's a hacking attack from the blocked content. If the content is some legitimate text, for example you submit some text in the article which contains a sensitive word falsely alerted, you need to set the IP as “Monitored” and also whitelist the Variable in Variables Management to avoid it happening again in the future.
-
-.. _whitelist-variable:
 
 Whitelist variables
 ------------------------------------------
