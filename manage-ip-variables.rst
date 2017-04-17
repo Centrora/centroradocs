@@ -7,6 +7,7 @@ IP Status
 --------------
 
 An IP record can have 3 states, **Whitelisted**, **Blacklisted**, and **Monitored**.
+
 * **Whitelisted** (marked as a green check) means the IP will not be scanned by the Firewall core engine;
 * **Blacklisted** (marked as a red stop symbol) means the IP will be thoroughly blocked from the site and receive the block message;
 * **Monitored** (marked as a yellow eye) means the IP is only logged in IP Management for the admin attention and the IP will still have access to the site.
