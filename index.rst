@@ -107,6 +107,7 @@ The documentation for Centrora Security is organized into a couple of sections:
    pdo-class
    joomla-fabrik-conflict
    signature-update-failure
+   whitelist-variables
 
 
 .. _video-tutorials:
