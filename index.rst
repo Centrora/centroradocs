@@ -68,7 +68,6 @@ The documentation for Centrora Security is organized into a couple of sections:
    test-protection
    manage-ip-variables
    file-upload-check
-   country-blocking
 
 
 .. _backup:

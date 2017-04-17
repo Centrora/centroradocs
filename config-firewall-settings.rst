@@ -1,3 +1,77 @@
 Configure Firewall Settings
 ****************************
 
+Enable Centrora Firewall
+-------------------------
+
+Now, we can turn On Centrora Firewall to protect the website from attacks. Go to the menu ``Firewall Settings --> Firewall Configuration``, under the tab ``Firewall Scanning``, turn on ``firewall``. Setting it off will disable the Firewall scanning functions temporarily for the development purpose.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/300_Firewall_Scanning.jpg
+
+Also, if you have Premium activated, please further go to the tab ``Advanced Firewall Configuration`` to enable ``Advanced Firewall Setting`` and ``Silent Mode``. The Advanced Firewall Setting is the switch of the advanced functions and features. It has more secured patterns and rules to help preventing all aspects of XSS attacks, sql injection etc. It will be only available for paid premium subscribers.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/301_Advanced_Firewall_Configuration.jpg
+
+Frontend Blocking Mode
+------------------------
+
+1. There are 2 modes here. With **Show ban page**, if the user's behavior violates any rule, the user’s IP will be thoroughly blocked and they will receive a Ban Page which you can edit below.
+
+2. The **Show a 403 error page** function allows a certain user's activity to be filtered, but the user’s IP will not be blocked and will just receive a 403 error page. Afterwards, the user can still get back to the site.
+
+.. note:: We will recommend the mode of **Show a 403 error page**, in case the Firewall triggers false alerts. Banning the visitors' IPs may frustrate legitimate users.
+
+3. **Silent Mode** in the ``Advanced Firewall Configuration`` is also recommended. It works with the v mode above. Under this mode, if an activity is recognized as hacking by Anti-Hacker, the user will be redirected to the URL with the suspicious string trimmed. Though the IP will not be blocked it will have been added to the monitored IP list. Thus, users will not be confused when their operations are falsely recognised as hacking activities.
+
+4. Even under the mode of **Show a 403 error page**, we have the option to block the IP which keeps violates the rules and is considered belonging to a real hacker. **Silent Mode Allowed Threshold** in the ``Advanced Firewall Configuration`` defines the max number of suspicious visits of an IP. The default value is “10”.
+
+
+Administrator Settings
+------------------------
+
+1. In the tab ``Administrator settings`` we can define the email address that will receive email alerts about Firewall activities.
+
+2. **Centrora Google Authenticator**. This function is to unblock the administrator IP if it's falsely blocked. After enabling it, please scan the barcode with the Google Authentication App on our mobile. Also, there will be a field on the front-end ban page.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/302_Ban_Page.jpg
+
+Whenever, your admin IP is blocked out, you can access the Google Authentication App on your mobile to get the code. After submitting the code there, your IP will be immediately whitelisted and you will get the website access back.
+
+Ban Page SEO
+-------------------
+
+Edit SEO to make the Firewall SEO friendly in case the search engine indexing/crawling is filtered/blocked/affected. For example, if a Google crawler is blocked, it might not detect site data and show site information in the search result correctly. In this case, the Firewall will send SEO information that you have set here to Google. However, please note this is only a temporary solution and the best way is to find out the reason for the block and whitelist the related alerted rules or variables which have caused the false alarm.
+
+If you choose OFF for search engine (Google, Yahoo, and MSN) bots, the Firewall will bypass all visits from the search engine. However, a small potential risk is worth noting here. Our past experience have seen that hackers can disguise their IPs and activities from Google Bots. Therefore, if the hacker initiates the attack with that trick, disabling search engine scanning could make the site vulnerable.
+
+Country Blocking
+-------------------
+
+This function allows you to block IPs from the specific countries. Please note that you need to download Country Database under the menu ``Firewall Settings --> Country Blocking`` before the function can be used.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/303_Download_Country_Date.jpg
+
+After downloading the data, the full list of countries will be shown. You can choose a country and use the Blacklist Country to block visits from a specific country.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/304_Country_List.jpg
+
+Brute Force Protection
+-----------------------------
+
+Brute Force Protection Status
+With the function enabled, a user’s account will be blocked when the maximum number of login attempts is reached within a given time period.
+
+5.2 Google 2-Step Verification
+2- Step Google Authentication is only available for the WordPress and Joomla! currently. This function guarantees login security of a much higher level.Please refer to Tutorial“Google 2-Step Verification” to find how to enable the function.
+
+6. Load Firewall Rules.
+
+After the setting is done, please double check the firewall rules are loaded. Please go to menu Protect → Firewall Rules Fine-tuning
+
+004
+
+There is a button showing Firewall Updated. If you have subscribed to our premium service, the Basic Rules will be automatically updated. Moreover, the premium service allows you to have Advanced Firewall Rules enabled. Please refer to go to Advanced Firewall Rules tab and update the rules when you activate the premium service for the first time.
+
+004
+
+The configuration is all done. Your sites are now under protection by the firewall system.

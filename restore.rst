@@ -13,7 +13,7 @@ Instruction
 
 1- Upload the script package to the directory where you would like to restore the website from the BitBucket backup, say ``/httpdocs/test/``.
 
-2- Run the script as http://your_site_URL/test/git.php
+2- Run the script as ``http://your_site_URL/test/git.php``.
 
 3- It will show a very simple panel where you can input the BitBucket account information.
 
