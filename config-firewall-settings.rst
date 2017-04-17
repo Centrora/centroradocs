@@ -35,7 +35,7 @@ Administrator Settings
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/302_Ban_Page.jpg
 
-Whenever, your admin IP is blocked out, you can access the Google Authentication App on your mobile to get the code. After submitting the code there, your IP will be immediately whitelisted and you will get the website access back.
+Whenever your admin IP is blocked out, you can access the Google Authentication App on your mobile to get the code. After submitting the code there, your IP will be immediately whitelisted and you will get the website access back.
 
 Ban Page SEO
 -------------------
@@ -58,20 +58,35 @@ After downloading the data, the full list of countries will be shown. You can ch
 Brute Force Protection
 -----------------------------
 
-Brute Force Protection Status
 With the function enabled, a user’s account will be blocked when the maximum number of login attempts is reached within a given time period.
 
-5.2 Google 2-Step Verification
-2- Step Google Authentication is only available for the WordPress and Joomla! currently. This function guarantees login security of a much higher level.Please refer to Tutorial“Google 2-Step Verification” to find how to enable the function.
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/305_Bruteforce.jpg
 
-6. Load Firewall Rules.
+Google 2-Step Verification
+----------------------------------
 
-After the setting is done, please double check the firewall rules are loaded. Please go to menu Protect → Firewall Rules Fine-tuning
+2-Step Google Authentication is only available for the WordPress and Joomla! currently. This function guarantees login security of a much higher level. Before the settings, you will need to install the Google Authenticator App on your mobile.
 
-004
+First, enable **Google 2-Step Verification** in the tab ``Brute Force Protection``.
 
-There is a button showing Firewall Updated. If you have subscribed to our premium service, the Basic Rules will be automatically updated. Moreover, the premium service allows you to have Advanced Firewall Rules enabled. Please refer to go to Advanced Firewall Rules tab and update the rules when you activate the premium service for the first time.
+Then for Joomla!, please go to the menu ``Users --> Manage``, edit the profile for the admin user in the tab ``Two Factor Authentication``. Set Authentication Method as **Google Authenticator** and follow the steps there to finalize the setup.
 
-004
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/306_Authentication_Joomla.jpg
+
+For WordPress, please go to the menu ``Users`` and edit the admin account. In the section **Google Authenticator Settings**, set it Active. Click **Show/Hide QR code** to have the barcode showing and scan it with the mobile. Save the settings.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/307_Authentication_WP.jpg
+
+After this is set, the google authenticator app from your smart phone will generate a code every minute, which makes your login highly secure. Even if a hacker knows your username and password, he will not able to access the site administrator area without the google authenticator code.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/308_Authentication_Login.jpg
+
+Load Firewall Rules
+--------------------
+
+After the setting is done, please double check the firewall rules are loaded. Please go to menu ``Firewall Settings --> Firewall Rules Fine-tuning``. In ``Advanced Firewall Rules``, there is a button showing Firewall Update allowing you to do a manual update, if you have subscribed to our premium service. Thereafter, the Rules will be automatically updated.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/309_Advanced_Firewall_Rules.jpg
+
 
 The configuration is all done. Your sites are now under protection by the firewall system.
