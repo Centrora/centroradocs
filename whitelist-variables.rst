@@ -9,4 +9,4 @@ If the IP or activity if falsely blocked, please follow the steps to whitelist t
 3. Go to the menu ``Variables Fine-Tuning``, find the variables above and whitelist them.
 4. Go back to the Web Attacks menu to remove your logged IP.
 
-Or please refer to the `tutorial <whitelist-variable>`_ for more details.
+Or please refer to :ref:`whitelist-variable` for more details.

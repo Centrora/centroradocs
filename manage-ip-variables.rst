@@ -23,8 +23,6 @@ We can also manage the IPs in the same menu with the functional buttons.
 * **Update Host**: To keep the host information of the IP up to date.
 * **Import/Export IP from/to CSV**: The tool for importing or exporting IP rules.
 
-.. _whitelist-variable:
-
 Check IP record details
 -------------------------------------
 
@@ -35,6 +33,8 @@ Generally we need to check the IP record details to find the reason for being lo
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/312_IP_Details.jpg
 
 As the screenshot shows, you can find two important values ``Detected Variable`` and ``Detected Content``. From the example of test with index.php?a=%27union, the variable is “get.a” and the blocked content is “union”. You can know it's a hacking attack from the blocked content. If the content is some legitimate text, for example you submit some text in the article which contains a sensitive word falsely alerted, you need to set the IP as “Monitored” and also whitelist the Variable in Variables Management to avoid it happening again in the future.
+
+.. _whitelist-variable:
 
 Whitelist variables
 ------------------------------------------
