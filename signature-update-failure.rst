@@ -17,3 +17,16 @@ For WordPress version,
    /wp-content/plugins/ose_firewall/protected/data/tmp
    /wp-content/plugins/ose_firewall/protected/data/vsscanpath
 
+If the Virus Signature date in Dynamic Scanner stays as an old date, please try to remove the file:
+
+For Joomla!,
+::
+
+   /wp-content/plugins/ose-firewall/protected/data/tmpLastVersionCheck.php
+
+For WP,
+::
+
+   /administrator/components/com_ose_firewall/protected/data/tmpLastVersionCheck.php
+
+Then go back to the Dynamic Scanner and refresh page. The updater should reload again.
