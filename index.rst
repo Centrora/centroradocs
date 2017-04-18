@@ -93,7 +93,7 @@ The documentation for Centrora Security is organized into a couple of sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Email Settings
+   :caption: Management
 
    email
 
