@@ -35,7 +35,7 @@ Select Scan Types to choose what types of virus you are going to scan. Generally
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/103_Dynamic_Scanner_Scan_Types.jpg
 
-4. Start A Scan
+4. Start a Scan
 -----------------
 
 Now we can start a scan. By simply clicking the ``START`` button, it will do a full website scan.
