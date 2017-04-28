@@ -2,7 +2,7 @@ Whitelist Variables
 ************************
 
 
-If the IP or activity if falsely blocked, please follow the steps to whitelist the variables/rules:
+If the IP or activity is falsely blocked, please follow the steps to whitelist the variables/rules:
 
 1. Go to Centrora menu ``Logs --> Web attacks`` to locate the IP.
 2. Check the details by the ``Action`` button for the value of **Detected Variables**.
