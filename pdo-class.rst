@@ -25,6 +25,6 @@ Reference: `http://www.php.net/manual/en/pdo.installation.php <http://www.php.ne
 If you manage the server or know how to customize the PHP configurations, please edit the php.ini file to add the following codes into it::
 
    extension=pdo.so
-   extension=pdo_mysql.so1
+   extension=pdo_mysql.so
 
 Once PDO is added to the PHP environment, issue will be resolved.
