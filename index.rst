@@ -95,7 +95,7 @@ The documentation for Centrora Security is organized into a couple of sections:
    :maxdepth: 2
    :caption: Management
 
-   email
+   email_bak
 
 
 .. _troubleshooting:
