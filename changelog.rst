@@ -174,11 +174,11 @@ Changelog
 
 6.2.2
 
-* Fixed error handleing function not working properly on some servers for Gitbackup
+* Fixed error handling function not working properly on some servers for Gitbackup
 
 6.2.1
 
-* Added Git Backup error handeling message if Git is not installed
+* Added Git Backup error handling message if Git is not installed
 * Added Git Backup folder protection
 
 6.2.0
@@ -257,8 +257,8 @@ Changelog
 * Added: Strong Password Enforcement under Firewall configuration settings
 * Added: A What’s New section where you can view News of security and other related posts from our own security consultants – learn what you can do to harden your site’s security
 * Enhancement: Merge Firewall Configuration Functions
-* Enhancement: Improved firewall configuration settings layout – Rearraged & simplified configuration settings
-* Enhancement: Reducted duplicate functions under Firewall
+* Enhancement: Improved firewall configuration settings layout – Rearranged & simplified configuration settings
+* Enhancement: Reduced duplicate functions under Firewall
 * Enhancement: Improved site navigation speed
 * Enhancement: Changelog view under what’s new to get details of each release
 
@@ -279,7 +279,7 @@ Changelog
 
 * Fixed: The syntax for OEM version does not work in PHP version 5.3 that caused some websites not working properly
 * Added: Administrator URL protection for both WordPress, Joomla and Suite versions
-* Added: Security Manager Account management section to add a security manager account to manaage Centrora Security
+* Added: Security Manager Account management section to add a security manager account to manage Centrora Security
 * Enhancement: Enhanced CSS and UI support for OEM partners
 * Added: Security warning message in configuration page to enable the Centrora System plugin for Joomla and Suite users
 * Bug fixed: Suite version only – fixed errors showing in the administrator menus
@@ -348,7 +348,7 @@ Changelog
 * Added: Feature Requests #167: Add download virus pattern function to virus scanner section
 * Enhancement: Improved backup Upload time – Faster More efficient Cloud Backups.
 * Enhancement: Split backups for manageable file sizes
-* Enhancement: Backup option for timeout constraint servers (during filesbackup )
+* Enhancement: Backup option for timeout constraint servers (during files backup )
 * : Improvements #119: Reorganise Menu System for better navigability
 * Fix: Scheduled backup function fixes
 * Fix: Bugs #85: Creating Backup Zip fails for some users
