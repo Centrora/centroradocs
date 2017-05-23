@@ -22,6 +22,7 @@ The documentation for Centrora Security is organized into a couple of sections:
    :caption: About
 
    about-centrora
+   changelog
 
 
 .. _prerequisites-docs:
