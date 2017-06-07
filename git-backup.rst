@@ -8,7 +8,7 @@ Please refer to the videos for how to enjoy all functions of Centrora Git backup
 1. Initialize Git Backup
 -------------------------
 
-.. |location_link| raw:: html
+.. raw:: html
 
    <a href="https://www.youtube.com/embed/2xkX801_NNo" target="_blank">Initialize Git Backup</a>
 
