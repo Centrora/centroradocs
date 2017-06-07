@@ -20,6 +20,7 @@ Please refer to the videos for how to enjoy all functions of Centrora Git backup
 .. raw:: html
 
    <a href="https://www.youtube.com/embed/pS7TRE4P9iA" target="_blank">Make a New Backup</a>
+   <br>
 
 
 3. Track the website changes with Git
