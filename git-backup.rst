@@ -12,15 +12,18 @@ Please refer to the videos for how to enjoy all functions of Centrora Git backup
 
    <a href="https://www.youtube.com/embed/2xkX801_NNo" target="_blank">Initialize Git Backup</a>
 
-`Initialize Git Backup <https://www.youtube.com/embed/2xkX801_NNo>`_
 
 2. Make a New Backup
 ---------------------
 
-`Make a New Backup <https://www.youtube.com/embed/pS7TRE4P9iA>`_
+.. raw:: html
+
+   <a href="https://www.youtube.com/embed/pS7TRE4P9iA" target="_blank">Make a New Backup</a>
 
 3. Track the website changes with Git
 ----------------------------------------
 
-`Track Website Changes with Git <https://www.youtube.com/embed/Y2oxouteI9A>`_
+.. raw:: html
+
+   <a href="https://www.youtube.com/embed/Y2oxouteI9A" target="_blank">Track Website Changes with Git</a>
 
