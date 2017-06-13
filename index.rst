@@ -43,6 +43,7 @@ The documentation for Centrora Security is organized into a couple of sections:
    install-joomla
    install-centrora-suite
    install-suite-whm
+   install-suite-plesk
    activate-premium
    uninstall
 
