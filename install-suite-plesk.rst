@@ -36,7 +36,7 @@ Then extract the package and it will create a new folder ``centrora-suite-master
 4. Install Centrora Security Suite in the account.
 ---------------------------------------------------
 
-Now we can access the Centrora installation page at: ``http://domain_for_Centrora_account/installation/index.php`` and follow the installation wizard to complete it.
+Now we can access the Centrora installation page at: ``http://domain_for_Centrora_account/installation/index.php`` and follow the installation wizard to complete it. After the installation, login and install the database.
 
 .. image:: https://cdn.centrora.com/images/tutorial/whm/DvcDlG.png
 
@@ -69,29 +69,48 @@ In the above code, please replace **suiteplesk.your_domain.com** with the real d
 8. Centrora Security is loaded in Plesk.
 --------------------------------------
 
-A new plugin "Centrora Security" will show up in the WHM side bar.
+A new extension "Centrora Security" will show up in Plesk Extensions menu.
 
-.. image:: https://cdn.centrora.com/images/tutorial/whm/xKEtUe.png
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/035_Extensions.jpg
 
-9. Activate the firewall protection.
+We can access Centrora Security and do the management through this portal in teh future.
+
+9. Edit the configuration.
+-----------------------------------------
+
+Now we need to update the /tmp and /log paths of the Centrora installation. Login Centrora from Plesk Extensions and go to the menu ``Management`` --> ``Global Configuration``. Change "Path to Log Folder" as::
+
+   /usr/local/psa/admin/htdocs/modules/centrora/logs
+
+and change "Path to Temp Folder" as::
+
+   /usr/local/psa/admin/htdocs/modules/centrora/tmp
+
+Save the settings.
+
+10. Activate the firewall protection.
 --------------------------------------
 
-Now, you can scan all websites under the server /home folder when you access Centrora Security inside WHM. To protect the websites/accounts in the server, we need to do one more step to load the firewall functions.
+Now, we can scan all websites under the server /var/www/vhosts folder when we access Centrora Security inside Plesk. To protect the websites/accounts in the server, we need to do one more step to load the firewall functions.
 
 First, please enter Centrora and go to the menu ``Management --> Firewall Activation Codes``.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/018_Suite_Activation_Codes.jpg
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/036_Plesk_Activation_Code.jpg
 
-Copy the codes there starting with ";Parameters". For the WHM installation, they are normally::
+Copy the codes::
 
-   register_globals=off
-   safe_mode=off
-   allow_url_fopen=off
-   display_errors=off
-   session.save_path='/tmp'
-   disable_functions="exec,passthru,shell_exec,system,curl_multi_exec,show_source"
-   auto_prepend_file= "/usr/local/lib/php/centrora/administrator/scan.php"
+   auto_prepend_file= "/opt/psa/admin/htdocs/modules/centrora/administrator/scan.php"
 
-Add the codes to the WHM server php.ini file through php.ini editor. Now, we can do a test to confirm the protection works following: :ref:`test-protection`.
+and insert the line into the ``PHP Settings`` of the domain which we are going to protect.
 
-We are sure that the new WHM addon helps you a lot in enhancing the firewall protection of your dedicated server.
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/037_Insert_Activation_Codes.jpg
+
+Also, add the path::
+
+   /opt/psa/admin/htdocs/modules/centrora
+
+into the parameter ``open_basedir``.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/038_open_basedir.jpg
+
+Now, we can do a test to confirm the protection works following: :ref:`test-protection`.
