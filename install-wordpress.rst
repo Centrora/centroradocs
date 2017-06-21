@@ -1,4 +1,4 @@
-Install in WordPress Site
+Install on WordPress Site
 **************************
 
 **Step 1.**
