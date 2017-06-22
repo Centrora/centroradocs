@@ -1,12 +1,20 @@
 Centrora Git Backup
 ********************
 
-Centrora Git backup provides the best ever experience on the website backup and restoration. The backup function becomes stable and efficient since Version 7. Some new features with Git Backup were released as well to make it easier to use and more helpful, for instance, the ability of define the custom commit title and the file changes tracking function.
+Centrora Git backup provides the best ever experience on the website backup and restoration. The backup function becomes stable and efficient since Version 6.8. Some new features with Git Backup were released as well to make it easier to use and more helpful, for instance, the ability of define the custom commit title and the file changes tracking function.
 
-Please refer to the videos for how to enjoy all functions of Centrora Git backup
+Please follow the below steps to set it up and refer to the videos for how to enjoy all functions of Centrora Git backup
 
 1. Initialize Git Backup
 -------------------------
+
+When you use Git Backup for the first time, it needs to initialise the database and function. If all requirement checks are fulfilled, the Dashboard of Git Backup will automatically show the button ``Enable GitBackup 'Now'``. Click the button and the system will do the first backup.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/500_Enable_Git_Backup.jpg
+
+
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/501_First_Backup.jpg
 
 .. raw:: html
 
