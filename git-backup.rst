@@ -12,9 +12,11 @@ When you use Git Backup for the first time, it needs to initialise the database 
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/500_Enable_Git_Backup.jpg
 
-
+After it's done, it shows the result of the first backup. The first backup will be named as "Initial Local Backup:" by default. Take a Joomla! site as the example, the backup list each core directory of the root separately to ensure the stability.
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/501_First_Backup.jpg
+
+
 
 .. raw:: html
 
