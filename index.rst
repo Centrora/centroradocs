@@ -10,6 +10,7 @@ The documentation for Centrora Security is organized into a couple of sections:
 * :ref:`firewall`
 * :ref:`backup`
 * :ref:`automation`
+* :ref:`email`
 * :ref:`troubleshooting`
 * :ref:`video-tutorials`
 
@@ -97,7 +98,7 @@ The documentation for Centrora Security is organized into a couple of sections:
    :maxdepth: 2
    :caption: Email
 
-   email_bak
+   email
 
 
 .. _troubleshooting:
