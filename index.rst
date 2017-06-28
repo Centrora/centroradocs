@@ -79,7 +79,7 @@ The documentation for Centrora Security is organized into a couple of sections:
    :caption: Backup
 
    git-backup
-   restore
+   git-restore
 
 
 .. _automation:
