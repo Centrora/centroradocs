@@ -37,7 +37,7 @@ After it's done, the new backup will be added to the list. Please note that in t
 .. raw:: html
 
    <a href="https://www.youtube.com/embed/pS7TRE4P9iA" target="_blank">Make a New Backup</a>
-   <br>
+   <br/>
 
 
 3. Track the Website Changes with Git
