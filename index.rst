@@ -1,7 +1,7 @@
 Welcome to Centrora Security's documentation!
 ==============================================
 
-The documentation for Centrora Security is organized into a couple of sections:
+The documentation for Centrora Security is organized into a couple of sections as follows. A simple text version in PDF can be downloaded at `here <https://media.readthedocs.org/pdf/centrora-security-documentations/latest/centrora-security-documentations.pdf>`_.
 
 * :ref:`about-docs`
 * :ref:`prerequisites-docs`
@@ -119,5 +119,3 @@ The documentation for Centrora Security is organized into a couple of sections:
    :caption: Video Tutorials
 
    video-tutorials
-
-The documentation can be download in the PDF version at `here <https://media.readthedocs.org/pdf/centrora-security-documentations/latest/centrora-security-documentations.pdf>`_
