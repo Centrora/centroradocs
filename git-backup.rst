@@ -21,12 +21,12 @@ You can also check the video about how to enable Git Backup.
 .. raw:: html
 
    <a href="https://www.youtube.com/embed/2xkX801_NNo" target="_blank">Initialize Git Backup</a>
-
+   <p></p>
 
 2. Make a New Backup
 ---------------------
 
- Now we can make a new backup at any time. The backup will be much faster then the initial backup because the Git technology only track and commit the changes from the initial one. Click the button ``Create local backup`` to make a new backup and here we can name the backup.
+Now we can make a new backup at any time. The backup will be much faster then the initial backup because the Git technology only track and commit the changes from the initial one. Click the button ``Create local backup`` to make a new backup and here we can name the backup.
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/502_Create_Local_Backup.jpg
 
@@ -37,7 +37,7 @@ After it's done, the new backup will be added to the list. Please note that in t
 .. raw:: html
 
    <a href="https://www.youtube.com/embed/pS7TRE4P9iA" target="_blank">Make a New Backup</a>
-   <br/>
+   <p></p>
 
 
 3. Track the Website Changes with Git
@@ -50,6 +50,7 @@ With the Git backup, we can easily track all changed files from the last backup.
 .. raw:: html
 
    <a href="https://www.youtube.com/embed/Y2oxouteI9A" target="_blank">Track Website Changes with Git</a>
+   <p></p>
 
 4. Restore the Website to a Previous Backup
 --------------------------------------------------------
