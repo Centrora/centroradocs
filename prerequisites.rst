@@ -7,4 +7,4 @@ Centrora Security requires,
 2. MySQL 5.0+.
 3. WordPress 4.7+.
 4. All Joomla! versions 1.5, 2.5, and 3.x.
-5. Git Backup function required Git installed on the server.
+5. Git Backup function requires Git installed on the server.
