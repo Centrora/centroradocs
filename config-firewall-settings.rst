@@ -40,9 +40,9 @@ Whenever your admin IP is blocked out, you can access the Google Authentication 
 Ban Page SEO
 -------------------
 
-Edit SEO to make the Firewall SEO friendly in case the search engine indexing/crawling is filtered/blocked/affected. For example, if a Google crawler is blocked, it might not detect site data and show site information in the search result correctly. In this case, the Firewall will send SEO information that you have set here to Google. However, please note this is only a temporary solution and the best way is to find out the reason for the block and whitelist the related alerted rules or variables which have caused the false alarm.
+Edit SEO to make the Firewall SEO friendly in case the search engine indexing/crawling is filtered/blocked/affected. For example, if a Google crawler is blocked, it might not detect website data and show website information in the search result correctly. In this case, the Firewall will send SEO information that you have set here to Google. However, please note that this is only a temporary solution and the best way is to find out the reason of the false blocks and to whitelist the related rules or variables which cause the false alarms.
 
-If you choose OFF for search engine (Google, Yahoo, and MSN) bots, the Firewall will bypass all visits from the search engine. However, a small potential risk is worth noting here. Our past experience have seen that hackers can disguise their IPs and activities from Google Bots. Therefore, if the hacker initiates the attack with that trick, disabling search engine scanning could make the site vulnerable.
+If parameter is set as OFF for search engine (Google, Yahoo, and MSN) bots, the Firewall will bypass all visits from the specific search engine, hence there will be no false blocks for that search engine. Nevertheless, it is worth noting that there is a small potential risk here. Our past experience has observed that some hackers can disguise their IPs and activities to make them look like from Google bots. Bypassing Google bots will allow the access of this kinds of hackers.
 
 Country Blocking
 -------------------
