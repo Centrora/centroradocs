@@ -80,6 +80,7 @@ The documentation for Centrora Security is organized into a couple of sections a
    :caption: Backup
 
    git-backup
+   git-backup-suite
    git-restore
 
 
