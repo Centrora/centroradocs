@@ -79,6 +79,7 @@ The documentation for Centrora Security is organized into a couple of sections a
    :maxdepth: 2
    :caption: Backup
 
+   git-about
    git-backup
    git-backup-suite
    git-restore
