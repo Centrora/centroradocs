@@ -38,7 +38,7 @@ To make a comparison, let’s take an example of a website with 100MB originally
 +--------------+-----------+----------------------+------------------+
 | 10           | 145 MB    | 145 MB               | 5 MB             |
 +--------------+-----------+----------------------+------------------+
-| Accumulation |           | **1225 MB**        | **145 MB**      |
+| **Accumulation** |           | **1225 MB**        | **145 MB**      |
 +--------------+-----------+----------------------+------------------+
 
 However, we can observe the dramatic difference just after 10 days. With the traditional method, it keeps the full daily backups. So if we save the backup packs for all the 10 days, the total space on the server reaches 1225 MB; while the Git method only consumes 145MB as it only commits the change of 5MB every day, at the same time, the backup time being largely shortened as well.
