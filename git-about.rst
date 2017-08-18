@@ -14,6 +14,15 @@ Git is a popular modern version control system. You can think Git as a small sof
 Git only tracks the changes. So not like the traditional backup method, it will not keep the full website files and data upon each backup. Only changes will be committed to the last backup package and it records the complete history. So after the first time initialization, it takes much less space and saves a lot of time in a new backup.
 To make a comparison, let’s take an example of a website with 100MB originally and assume the size increases by 5MB every day due to new contents, user data, and logs and we make a full backup for the site every day. So the site size will be 105MB on the 2nd day, 110MB on the 3rd day, 115MB on the 4th day,and so on. At the beginning, the backup package size is 100MB, the same for the traditional and Git methods.
 
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
+| (header rows optional) |            |          |          |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | ...        | ...      |          |
++------------------------+------------+----------+----------+
+
 +------+------+------+------+
 | Day |	Site Size | New Added Backup Size with Traditional Method |	New Added Backup Size with Git Method |
 +======+======+======+======+
