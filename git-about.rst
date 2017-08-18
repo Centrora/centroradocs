@@ -15,8 +15,8 @@ Git only tracks the changes. So not like the traditional backup method, it will 
 To make a comparison, let’s take an example of a website with 100MB originally and assume the size increases by 5MB every day due to new contents, user data, and logs and we make a full backup for the site every day. So the site size will be 105MB on the 2nd day, 110MB on the 3rd day, 115MB on the 4th day,and so on. At the beginning, the backup package size is 100MB, the same for the traditional and Git methods.
 
 +--------------+-----------+----------------------+------------------+
-| Day          | Site Size | New Added Backup     | New Added Backup |
-|              |           | (Traditional Method) | (Git Method)     |
+| Day          | Site Size | New Backup           | New Backup       |
+|              |           | -Traditional Method  | -Git Method      |
 +==============+===========+======================+==================+
 |  1           | 100 MB    | 100 MB               | 100 MB           |
 +--------------+-----------+----------------------+------------------+
@@ -38,7 +38,7 @@ To make a comparison, let’s take an example of a website with 100MB originally
 +--------------+-----------+----------------------+------------------+
 | 10           | 145 MB    | 145 MB               | 5 MB             |
 +--------------+-----------+----------------------+------------------+
-| Accumulation |           | 1225 MB              | 145 MB           |
+| Accumulation |           | **1225 MB**          | **145 MB **      |
 +--------------+-----------+----------------------+------------------+
 
 However, we can observe the dramatic difference just after 10 days. With the traditional method, it keeps the full daily backups. So if we save the backup packs for all the 10 days, the total space on the server reaches 1225 MB; while the Git method only consumes 145MB as it only commits the change of 5MB every day, at the same time, the backup time being largely shortened as well.
