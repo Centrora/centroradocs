@@ -3,7 +3,7 @@ About Centrora Git backup
 
 Choosing a proper backup way is always an important topic for website administrators. It helps keep the site data safe and guarantees that we have the latest working version under any circumstances. Super fast, efficient, and reliable, the technology with Git, which brings us many miracles, strives to provide the best solution for the object.
 
- **Why choose Git?**
+**Why choose Git?**
 
 
 Git is a popular modern version control system. You can think Git as a small software which constantly monitors for the changes of the file system. Unlike the traditional backup method, which will pack all the files into an archive file, Git will only keep track of changed files. Compared to traditional backup methods, the technology with Git has 4 significant advantages.
@@ -23,31 +23,31 @@ To make a comparison, let’s take an example of a website with 100MB originally
 | body row 2             | ...        | ...      |          |
 +------------------------+------------+----------+----------+
 
-+------+------+------+------+
-| Day |	Site Size | New Added Backup Size with Traditional Method |	New Added Backup Size with Git Method |
-+======+======+======+======+
-|  1 | 100 MB | 100 MB | 100 MB |
-+------+------+------+------+
-|  2 | 105 MB | 105 MB |   5 MB |
-+------+------+------+------+
-|  3 | 110 MB | 110 MB |   5 MB |
-+------+------+------+------+
-|  4 | 115 MB | 115 MB |   5 MB |
-+------+------+------+------+
-|  5 | 120 MB | 120 MB |   5 MB |
-+------+------+------+------+
-|  6 | 125 MB | 125 MB |   5 MB |
-+------+------+------+------+
-|  7 | 130 MB | 130 MB |   5 MB |
-+------+------+------+------+
-|  8 | 135 MB | 135 MB |   5 MB |
-+------+------+------+------+
-|  9 | 140 MB | 140 MB |   5 MB |
-+------+------+------+------+
-| 10 | 145 MB | 145 MB |   5 MB |
-+------+------+------+------+
-| Accumulation |  | 1225 MB |   145 MB |
-+------+------+------+------+
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+| Day          |	Site Size | New Added Backup Size with Traditional Method |	New Added Backup Size with Git Method |
++==============+===========+===============================================+==========================================+
+|  1           | 100 MB    | 100 MB                                        | 100 MB                                   |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+|  2           | 105 MB    | 105 MB                                        | 5 MB                                     |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+|  3           | 110 MB    | 110 MB                                        | 5 MB                                     |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+|  4           | 115 MB    | 115 MB                                        | 5 MB                                     |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+|  5           | 120 MB    | 120 MB                                        | 5 MB                                     |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+|  6           | 125 MB    | 125 MB                                        | 5 MB                                     |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+|  7           | 130 MB    | 130 MB                                        | 5 MB                                     |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+|  8           | 135 MB    | 135 MB                                        | 5 MB                                     |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+|  9           | 140 MB    | 140 MB                                        | 5 MB                                     |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+| 10           | 145 MB    | 145 MB                                        | 5 MB                                     |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
+| Accumulation |           | 1225 MB                                       | 145 MB                                   |
++--------------+-----------+-----------------------------------------------+------------------------------------------+
 
 However, we can observe the dramatic difference just after 10 days. With the traditional method, it keeps the full daily backups. So if we save the backup packs for all the 10 days, the total space on the server reaches 1225 MB; while the Git method only consumes 145MB as it only commits the change of 5MB every day, at the same time, the backup time being largely shortened as well.
 
