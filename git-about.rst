@@ -51,10 +51,10 @@ With the Git method, just one click can resolve all the issues and it could just
 3. Easy to track the differences
 ------------------------------------------------
 
-Sometimes, we need to compare the files between different versions for development or security purposes. With the old way, it’s a big trouble especially when the site has a large number of files, because it needs us to build a mirror, restore all files of both versions,  compare the files with the MD5 Hash and even manually review the codes.
+Sometimes, we need to compare the files between different versions for development or security purposes. Generally, it’s a big trouble especially when the site has a large number of files, because it needs us to build a mirror, restore all files of both versions,  compare the files with the MD5 Hash and even manually review the codes.
 With the Git functions, it will be as easy as pie. Git is designed to have a complete history and full version tracking abilities. With a few operations, we can get a full list of changed files and also the detailed changed codes of each file.
 
-4. Unlimited space when uploading the backup to Cloud
+4. 10GB cloud upload for each repository and unlimited repositories
 ---------------------------------------------------------------
 
 Cloud backup is a popular solution as we can easily bring the backup with we at any place at any time as long as there is an internet connection. Nowadays, all major Cloud services provide quite a large storage space and we may get more by paying extra for the service. However, it’s still limited. The consideration of space will more or less restricts the freedom of keeping the backup in a long term.
