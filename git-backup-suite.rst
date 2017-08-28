@@ -25,10 +25,9 @@ After setting the database connection, the system will check if the server setti
 2. Make A Backup
 ---------------------------------------------
 
-Once all the requirements are satisfied you will see screen like this:
+Now we can enable Git Backup if all requirement checks pass and it shows the successful window.
 
-
-
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/534_Git_Suite_Enable_Backup.jpg
 
 
 This means that all the pre-requisites are satisfied and the system is ready to go.
