@@ -1,4 +1,4 @@
-Using Git Backup in Centrora Suite for WHM server
+Using Git Backup in Centrora Suite on WHM server
 **************************************************
 
 1. Pre-requisites
