@@ -8,36 +8,23 @@ If it's the first time you use Git Back in Centrora Suite and the system has not
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/530_Git_Suite_Panel.jpg
 
+Since centrora is installed at the server root, it needs the database access of the website in a specific account. In order to do so we need to initiate the account which will allow centrora to get the database access. Please click on the ``Initiate`` button next to the account and it will try to retrieve the database details within the account based on the website system, Joomla! or WordPress. Once Git has been initialized for an account, it will look like this,
 
-Since centrora is installed at the root it needs database access to the account. In order to do so we need to initiate the account which will allow centrora to get the database access to the website account.
-In order to do so, please click on the initiate button next to the account and it will try to retrieve the database details for the account which will help the git backup system to perform a backup
-Once the accounts have been initialised the screen will look like this:
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/531_Git_Suite_Initialize.jpg
 
-Notice that the button next to the account name jltest1 has been changed to  “Go to the Account” which means the system was successfully able to retrieve the database details
+Notice that after the initialization, the button next to the account name changes to ``Go to the Account`` which means the system is able to retrieve the database detail.
 
-In case the system is not able to retrieve the database details it will show you a pop up like :
+In case the system fails to retrieve the database detail it will show up a pop-out window allowing you to manually input the database info.
 
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/532_Git_Suite_Database.jpg
 
+After setting the database connection, the system will check if the server settings satisfy the requirements of running Git. It will show the detailed report if any requirement is not fulfilled.
 
-In this case please enter the details prompted on the screen, the system will try to connect database with these details and initialise the account once its completed
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/533_Git_Suite_System_Check.jpg
 
-If the system settings do not satisfy the requirements to execute git , it will show you a message like this :
+2. Make A Backup
+---------------------------------------------
 
-
-
-
-WHAT DOES THIS MEAN?
- Gitbackup makes use of components like proc open, Git, ssh commands, MysqlDump and zip command to perform a backup. If any of the function is not available the system will not be able to perform a backup.
-
-WHAT SHOULD I DO:
-You can contact your hosting provider to install or to make sure these services are available. Here is checklist for convenience:
-1.	Install Git 
-2.	Enable Ssh Commands
-3.	Install MySQL Dump 
-4.	Enable proc open
-5.	Enable zip command
-
-FLOW OF EVENTS
 Once all the requirements are satisfied you will see screen like this:
 
 
