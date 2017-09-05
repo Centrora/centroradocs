@@ -29,14 +29,13 @@ Now we can enable Git Backup if all requirement checks pass and it shows the suc
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/534_Git_Suite_Enable_Backup.jpg
 
+It will automatically start the first backup of the files and database.
 
-This means that all the pre-requisites are satisfied and the system is ready to go.
-When you use the gitbackup for the first time , you need to enable gitbackup which will back up your database and files, so click on the button Enable Gitbackup ’Now’. Once that’s done , the screen will display message like this :
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/535_Git_Suite_Backup.jpg
 
+Once the initialization is done, the page will redirect you to the main backup management panel which displays the list of all backups.
 
-
-
-Once the initialisation is completed, the page will redirect you to the backup  panel which displays a list of backups
+.. image:: https://cdn.protect-website.co/centrora_web/images/536_Git_Suite_Backup_List.jpg
 
 
 
