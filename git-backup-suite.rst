@@ -35,14 +35,13 @@ It will automatically start the first backup of the files and database.
 
 Once the initialization is done, the page will redirect you to the main backup management panel which displays the list of all backups.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/536_Git_Suite_Backup_List.jpg
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/536_Git_Suite_Backup_List.jpg
 
+Unlike the traditional backup method, Git backup will not show the backup history which includes a list of packages each for a whole website backup. Instead it shows a list of backups carried out over time each only tracking the changes from the previous backup.
 
+3. Main Functions
+---------------------------------------------
 
-
-Unlike traditional backup, Git does not show the backup history using just a file name, instead it shows a list of backups carried out over time. Thus, if you back up a website once , the backup history will show your number of entries instead of one as it backups the website folder by folder.
-
-FUNCTIONALITIES
 UNINSTALL GIT
  This will delete all the git files and the plugin will stop tracking for all the changes. Which implies that all your backup and the backup history will be deleted. If you have performed a cloud backup previously, it will dis-link the cloud account but the repository will still exist.
 CREATE LOCAL BACKUP
