@@ -67,7 +67,7 @@ The documentation for Centrora Security is organized into a couple of sections a
    :caption: Firewall Version 6
 
    config-firewall-settings-v6
-   test-protection-v6
+   test-protection
    centrora-firewall-rules
    manage-ip-variables-v6
    file-upload-check-v6
