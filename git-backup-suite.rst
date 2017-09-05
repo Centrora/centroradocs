@@ -33,7 +33,7 @@ It will automatically start the first backup of the files and database.
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/535_Git_Suite_Backup.jpg
 
-Once the initialization is done, the page will redirect you to the main backup management panel which displays the list of all backups.
+Once the initialization is done, the page will redirect you to the main backup management panel which displays the list of all backups of the account.
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/536_Git_Suite_Backup_List.jpg
 
