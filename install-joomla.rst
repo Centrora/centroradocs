@@ -1,7 +1,7 @@
 Install on Joomla! Website
 **************************
 
-The installation of Centrora plugin in a Joomla! website is quite easy.
+The installation of Centrora plugin in a Joomla! website is quite easy. Please follow the below steps. The method also works to update Centrora to the latest version when you already have Centrora installed.
 
 **Step 1.**
 
