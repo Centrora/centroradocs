@@ -43,23 +43,26 @@ Unlike the traditional backup method, Git backup will not show the backup histor
 ---------------------------------------------
 
 * **Uninstall Git**
+
 This will delete all Git files and the plugin will stop tracking for all the changes. Then all your backups and the backup history will be deleted. If you have performed a cloud backup previously, it will dis-link the cloud account but the repository will still exist in the cloud account.
 
 * **Create Local Backup**
-This feature will back up your database along with the files. Once the process is completed the system will have a snapshot of the files in the system
-So, to create a local backup, click on the create local backup icon  and it will show a pop up like this :
 
+This will make a backup of the site database and the files. Once the process is completed the system will have a snapshot of the files in the system. After clicking on the ``Create local backup`` icon , it will show a pop up like this :
 
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/537_Git_Suite_Create_Backup.jpg
 
+Here you can name the current backup to remark the purpose of the backup.
 
-enter the name of the backup so that it will be easier for you to recollect the purpose of the backup in the future and click backup now.
+* **Push Backup to cloud**
 
-PUSH BACKUP TO THE CLOUD:
-This feature will perform a local backup first in case if it detects new changes and will upload them to your cloud account on GitLab (The users have a limit of 10 GB of cloud space on GitLab)
-Here are the instructions for setting up the cloud account with centrora:
-step 1: click on the push backup to the cloud buttons:
+This feature will perform a local backup first and then upload it to your cloud account on GitLab. Please note that to use this feature, you might need to control the website size under 10GB as each repository with GitLab has a limit of 10 GB of cloud space.
 
+When you do the cloud update for the first time, you will need to set up and link the cloud account with centrora.
 
+*Step 1*: click on the push backup to the cloud button.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/538_Git_Suite_Cloud_Upload.jpg
 
 The system will prompt you if you have a GitLab account or not, GitLab is a cloud service provider which allows the users to upload the git backups. It is essential that you create an account with GitLab first if you want to use the cloud backup services. Follow the prompts on the screen until you have your username and token ready to create a repo.
 How to get private token:
