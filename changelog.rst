@@ -1,6 +1,17 @@
 Changelog
 *****************************************
 
+7.0.0
+
+* Added new feature: new improved, faster and efficient Firewall v7 scanner.
+* Use of high speed dedicated servers for virus scanning and Git backups.
+* Removal of classic backup.
+* Improved Git Backup which supports increased cloud backup space of 10 GB.
+* Improved the feature to update the virus and firewall patterns.
+* Improved efficiency of MD5 hash scanner, core directory scanner, vulnerability scanner and file permission scanner.
+* Improved manual and schedule scanning.
+* Minor bug fixes for Firewall scanner V6.
+
 6.6.4.1
 
 * Fixed: download function not working on some websites

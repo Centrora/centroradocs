@@ -1,4 +1,4 @@
-Install on Joomla! Website
+Install/Update on Joomla! Website
 **************************
 
 The installation of Centrora plugin in a Joomla! website is quite easy. Please follow the below steps. The method also works to update Centrora to the latest version when you already have Centrora installed.
@@ -45,4 +45,4 @@ If you have any troubles installing it using the above way, like the failed conn
 7. Do the same steps for the pack "plg_system_centrora.zip".
 8. Now it's done and please follow the previous Step 3 and Step 4 to finalize the installation.
 
-Please don't hesitate to `contact us <https://www.centrora.com/contact-us/>`_ if there is still any problem there.
+Please don't hesitate to `contact us <https://www.centrora.com/support>`_ if there is still any problem there.

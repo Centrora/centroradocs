@@ -9,7 +9,7 @@ Before the installation, please make sure that:
 2. You have created a database that is specific for the Security Suite and is different from the databases of any of your existing websites!
 3. You are installing the Centrora Security into a folder that is different from any of your existing websites! Such as: ``/public_html/centrora/``.
 
-Now let’s start.
+Now let's start.
 
 1- Download the Centrora installation package from Centrora website.
 `Download Centrora <https://www.centrora.com/download/>`_ --> Download Standalone Version.

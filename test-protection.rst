@@ -13,4 +13,4 @@ We can test the Centrora Firewall function using the URL::
 
 Then you will be blocked with the block page showing up.
 
-If the test doesn't return the expected result, please check if you have ModSecurity installed on the server if you manage the server. ModSecurity may filter the testing query first. If not the case, it means the protection is not enabled well. Please `contact us <https://www.centrora.com/contact-us/>`_ at our Support Center for help.
+If the test doesn't return the expected result, please check if you have ModSecurity installed on the server if you manage the server. ModSecurity may filter the testing query first. If not the case, it means the protection is not enabled well. Please `contact us <https://www.centrora.com/support>`_ at our Support Center for help.

@@ -10,7 +10,7 @@ Core Directories Scanner will scan the website to compare the core system files 
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/120_Core_Directories_Scan.jpg
 
-.. note:: The result is just for the reference. It doesn't mean that the files listed in the result are the malware files. It's because site may have 3rd party extensions and libraries installed. So please review the files briefly to have more information. Or please `contact us <https://www.centrora.com/contact-us/>`_ for help.
+.. note:: The result is just for the reference. It doesn't mean that the files listed in the result are the malware files. It's because site may have 3rd party extensions and libraries installed. So please review the files briefly to have more information. Or please `contact us <https://www.centrora.com/support>`_ for help.
 
 Modified File Scanner
 -----------------------
