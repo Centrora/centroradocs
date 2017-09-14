@@ -42,10 +42,13 @@ Unlike the traditional backup method, Git backup will not show the backup histor
 3. Main Functions
 ---------------------------------------------
 
-UNINSTALL GIT
- This will delete all the git files and the plugin will stop tracking for all the changes. Which implies that all your backup and the backup history will be deleted. If you have performed a cloud backup previously, it will dis-link the cloud account but the repository will still exist.
-CREATE LOCAL BACKUP
-    This feature will back up your database along with the files. Once the process is completed the system will have a snapshot of the files in the system
+* Uninstall Git
+
+This will delete all Git files and the plugin will stop tracking for all the changes. Then all your backups and the backup history will be deleted. If you have performed a cloud backup previously, it will dis-link the cloud account but the repository will still exist in the cloud account.
+
+* Create Local Backup
+
+This feature will back up your database along with the files. Once the process is completed the system will have a snapshot of the files in the system
 So, to create a local backup, click on the create local backup icon  and it will show a pop up like this :
 
 
