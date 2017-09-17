@@ -22,7 +22,7 @@ After setting the database connection, the system will check if the server setti
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/533_Git_Suite_System_Check.jpg
 
-2. Make A Backup
+2. Enable the Backup
 ---------------------------------------------
 
 Now we can enable Git Backup if all requirement checks pass and it shows the successful window.
@@ -39,14 +39,13 @@ Once the initialization is done, the page will redirect you to the main backup m
 
 Unlike the traditional backup method, Git backup will not show the backup history which includes a list of packages each for a whole website backup. Instead it shows a list of backups carried out over time each only tracking the changes from the previous backup.
 
-3. Main Functions
+3. Uninstall Git
 ---------------------------------------------
-
-* **Uninstall Git**
 
 This will delete all Git files and the plugin will stop tracking for all the changes. Then all your backups and the backup history will be deleted. If you have performed a cloud backup previously, it will dis-link the cloud account but the repository will still exist in the cloud account.
 
-* **Create Local Backup**
+4. Create Local Backup
+---------------------------------------------------------------
 
 This will make a backup of the site database and the files. Once the process is completed the system will have a snapshot of the files in the system. After clicking on the ``Create local backup`` icon , it will show a pop up like this :
 
@@ -54,64 +53,21 @@ This will make a backup of the site database and the files. Once the process is 
 
 Here you can name the current backup to remark the purpose of the backup.
 
-* **Push Backup to cloud**
+5. Push Backup to cloud
+--------------------------------------------------------------
 
 This feature will perform a local backup first and then upload it to your cloud account on GitLab. Please note that to use this feature, you might need to control the website size under 10GB as each repository with GitLab has a limit of 10 GB of cloud space.
 
-When you do the cloud update for the first time, you will need to set up and link the cloud account with centrora.
+Please refer to the tutorial `Upload Git Backup to CLoud <https://docs.centrora.com/en/latest/git-backup.html#upload-to-cloud>`_
 
-*Step 1*: click on the push backup to the cloud button.
+6. Backup Notification
+-----------------------------------------------------------------
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/538_Git_Suite_Cloud_Upload.jpg
+When the red dots next to the local backup and cloud backup are shown as in the previous screenshot, it basically means that the system  detects new changes and suggests the admin to backup for the new changes.
 
-The system will prompt you if you have a GitLab account or not, GitLab is a cloud service provider which allows the users to upload the git backups. It is essential that you create an account with GitLab first if you want to use the cloud backup services. Follow the prompts on the screen until you have your username and token ready to create a repo.
-How to get private token:
-1.	go to: https://gitlab.com/users/sign_in and sign in using your username and password
-2.	check the top right corner on the screen and click on settings section:
+7. Backup Control Panel / Accounts List for WHM Accounts
+----------------------------------------------------------------------
 
+The purpose of the control panel is to provide the administration accessibility to view the status of backups of different accounts and perform backups directly without entering each account.
 
-
-
-
-
-
-
-
-
-3.	copy the private token form the account section:
-
-
-
-
-Use this private token and username for creating a cloud repository for your website on GitLab
-
-
-
-Once you provide the username and access token in the form, the system will setup a folder for the cloud backup on the GitLab and will upload the backup to the account. The upload may take some time if you are uploading the backup for the first time, the time to upload will be quite smaller in the next upload operations.
-
-LOCAL BACKUP AND CLOUD BACKUP NOTIFICATION
-    When you see a red dot next to the local backup and cloud backup, it basically means that the system has detected new changes and provides the user an option to back up the new changes.
-
-
-ROLLBACK:
-Git back allows you to restore files as well as database form specific backups. Here are the instructions to perform a rollback:
-Step 1: choose the backup you want to rollback to (Tip: use the green symbol with letter i to view changes) and click on the red rollback icon
-
-Step 2: The system will show you a message like this:
-If you want to roll back the database to the chosen backup then please click on yes (It is not recommended to roll back up to an old database as you may be losing some changes)
-
-
-step 3: If the rollback is completed successfully. The green tick icon will appear next to the backup id that you wanted to rollback to.
-Important note: You cannot rollback to the backup with the name as Initial local backup - since that is the first backup and the system has no other backup to roll back to
-
-BACKUP CONTROL PANEL/ ACCOUNTS LIST:
-Here is a details explanation of the backup control panel
-
-
-The purpose of the control panel is to provide the administrator accessibility to view status of accounts as well perform backups with just one click.
-
-
-LIST OF TECHNICAL WORDS AND THEIR MEANING:
-1.	Repository: This can be interpreted as a folder
-2.	Enable Git: Let git know it should start tracking for changed in the files
-3.	Version Control: Keep track of changes in files
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/539_Git_Suite_Account_List.jpg
