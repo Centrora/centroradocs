@@ -68,7 +68,7 @@ For Joomla
 
 7. Once the code is validated, the setup is completed. The google authenticator app from your smart phone will generate a code every minute when you need to login, which makes your login highly secure. Even if a hacker knows your username and password, he will not able to access the site administration area without the google authenticator.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/335_Firewall_2_Step_Joomla_Login.jpg
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/335_Firewall_2_Step_Joomla_Login.jpg
 
 8. **Now, it's very important to go back to the previous Centrora Panel page to SAVE the configuration.**
 
@@ -81,7 +81,7 @@ For WordPress
 2. A pop-up message will be shown for the confirmation. Click to continue.
 3. You will be redirected to the user's profile page in the WordPress User Panel.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/336_Firewall_2_Step_WP_User.jpg
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/336_Firewall_2_Step_WP_User.jpg
 
 4. Tick the "Active" box and scan the barcode using the Google Authenticator app on your mobile phone. After scanning the barcode, the app will generate a 6-digit code. Save the setting.
 
