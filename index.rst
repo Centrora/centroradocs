@@ -8,6 +8,7 @@ The documentation for Centrora Security is organized into a couple of sections a
 * :ref:`install-docs`
 * :ref:`virus-cleaning`
 * :ref:`firewall-v6`
+* :ref:`firewall-v7`
 * :ref:`backup`
 * :ref:`automation`
 * :ref:`email`
@@ -71,6 +72,17 @@ The documentation for Centrora Security is organized into a couple of sections a
    centrora-firewall-rules
    manage-ip-variables-v6
    file-upload-check-v6
+
+.. _firewall-v7:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Firewall Version 7
+
+   config-firewall-settings-v7
+   test-protection
+   manage-ip-variables-v7
+   file-upload-check-v7
 
 
 .. _backup:

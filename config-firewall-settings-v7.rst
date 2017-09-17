@@ -1,41 +1,96 @@
 Configure Firewall Settings
 ****************************
 
-Enable Centrora Firewall
+Basic Firewall Settings
 -------------------------
 
-Now, we can turn On Centrora Firewall to protect the website from attacks. Go to the menu ``Firewall Settings --> Firewall Configuration``, under the tab ``Firewall Scanning``, turn on ``firewall``. Setting it off will disable the Firewall scanning functions temporarily for the development purpose.
+To enable the firewall and configure the basic settings, following the Wizard is recommend as is an easy way to go through all major settings, especially for new users. We suggest you to enable all parameters for the best protection.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/300_Firewall_Scanning.jpg
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/330_Firewall_Wizard.jpg
 
-Also, if you have Premium activated, please further go to the tab ``Advanced Firewall Configuration`` to enable ``Advanced Firewall Setting`` and ``Silent Mode``. The Advanced Firewall Setting is the switch of the advanced functions and features. It has more secured patterns and rules to help preventing all aspects of XSS attacks, sql injection etc. It will be only available for paid premium subscribers.
+Firewall Mode
+--------------------------
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/301_Advanced_Firewall_Configuration.jpg
+There are three modes when the firewall detects suspicious activities.
 
-Frontend Blocking Mode
-------------------------
+1. Blocking Mode [Premium User]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. There are 2 modes here. With **Show ban page**, if the user's behavior violates any rule, the user’s IP will be thoroughly blocked and they will receive a Ban Page which you can edit below.
+Blocking mode uses the combination of attempt count and firewall sensitivity to determine whether to block a user or not. By default, the attempt counts are set to 10 and the firewall sensitivity is set to level "sensitive". In this case, when the front-end visitors trigger over 10 times of operations/queries which are detected by the firewall at the "sensitive" standard, the visitors' IPs will be blocked. To make the firewall stricter towards attackers, you can lower down the attempt count and increase the firewall sensitivity. Once the user is blocked, he/she will not be able to view the website and will only see the ban page.
 
-2. The **Show a 403 error page** function allows a certain user's activity to be filtered, but the user’s IP will not be blocked and will just receive a 403 error page. Afterwards, the user can still get back to the site.
+This mode is recommended for users who want to keep a strict security standard and do not want any suspicions to access the website.
 
-.. note:: We will recommend the mode of **Show a 403 error page**, in case the Firewall triggers false alerts. Banning the visitors' IPs may frustrate legitimate users.
+2. Filter Mode [Premium User]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3. **Silent Mode** in the ``Advanced Firewall Configuration`` is also recommended. It works with the v mode above. Under this mode, if an activity is recognized as hacking by Anti-Hacker, the user will be redirected to the URL with the suspicious string trimmed. Though the IP will not be blocked it will have been added to the monitored IP list. Thus, users will not be confused when their operations are falsely recognised as hacking activities.
+Filter mode works differently from Blocking mode and in a more friendly way for front-end users. This mode focuses more on filtering and cleaning malicious requests/queries instead of blocking the IPs thoroughly. Under this mode, all suspicious activities will be silently filter and are not able to enter the website, meanwhile, it will not block the user IPs to avoid the confusion for users who make false positives.
 
-4. Even under the mode of **Show a 403 error page**, we have the option to block the IP which keeps violates the rules and is considered belonging to a real hacker. **Silent Mode Allowed Threshold** in the ``Advanced Firewall Configuration`` defines the max number of suspicious visits of an IP. The default value is “10”.
+However, it is important to note that this mode will still block users who perform attacks including:
+  1.	Spamming
+  2.	Using malicious user agents
+  3.	Malicious file uploads
+  4.	Brute force
 
+3. Logging Mode [Free User]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Administrator Settings
-------------------------
+Logging mode is specially applied for free users. In this mode, the system will only keep track of attacks and will not block the attacker nor filter the request. The attack information can be viewed in the IP management page. The logging mode will send the alert email to the administrator when an attack is detected, and manual actions are required to block the IPs that trigger attacks. If the website is frequently attacked, it's recommend to subscribe our premium service to have the above 2 mode available to automatically block attacks.
 
-1. In the tab ``Administrator settings`` we can define the email address that will receive email alerts about Firewall activities.
+Brute Force Protection
+--------------------------------------------------------------
 
-2. **Centrora Google Authenticator**. This function is to unblock the administrator IP if it's falsely blocked. After enabling it, please scan the barcode with the Google Authentication App on our mobile. Also, there will be a field on the front-end ban page.
+.. note:: Brute Force protection needs to work with website system plugin to detect the user login, so it's not available for Centrora Security Suite. We will try to add this feature in the future version of Centrora Suite.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/302_Ban_Page.jpg
+Brute Force will detect the failure times of user login. With the function enabled, a user's account will be blocked when the maximum number of login attempts is reached within a given time period.
 
-Whenever your admin IP is blocked out, you can access the Google Authentication App on your mobile to get the code. After submitting the code there, your IP will be immediately whitelisted and you will get the website access back.
+Also, a two-step Google authentication can be setup in order to make the website back-end immune to brute force attacks. Please follow the steps below to set it up.
+
+For Joomla
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Click on the ``ON`` button to switch it active in the Brute Force section -> Google Verification tab.
+2. A pop-up message will be shown for the confirmation. Click to continue.
+3. You will be automatically redirected to the user's profile page in Joomla User Management.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/331_Firewall_2_Step_Joomla_User.jpg
+
+4. Go on User Profile, enter the Two factor authentication tab and choose **Google Authenticator** as the authentication mode.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/332_Firewall_2_Step_Joomla_User_Profile.jpg
+
+5. You will need to scan the barcode using the Google Authenticator app on your mobile phone. After scanning the barcode, the app will generate a 6-digit code.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/333_Firewall_2_Step_Joomla_Authentication_Code.jpg
+
+6. Return to Joomla! User Profile and fill this code in the step 3 of the same page.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials334_Firewall_2_Step_Joomla_Fill_Code.jpg
+
+7. Once the code is validated, the setup is completed. The google authenticator app from your smart phone will generate a code every minute when you need to login, which makes your login highly secure. Even if a hacker knows your username and password, he will not able to access the site administration area without the google authenticator.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/335_Firewall_2_Step_Joomla_Login.jpg
+
+8. **Now, it's very important to go back to the previous Centrora Panel page to SAVE the configuration.**
+
+9. Please set the 2-step authentication for all admin accounts.
+
+For WordPress
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. The same, click on the ``ON`` slider to enable in the Brute Force section -> Google Verification tab.
+2. A pop-up message will be shown for the confirmation. Click to continue.
+3. You will be redirected to the user's profile page in the WordPress User Panel.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/336_Firewall_2_Step_WP_User.jpg
+
+4. Tick the "Active" box and scan the barcode using the Google Authenticator app on your mobile phone. After scanning the barcode, the app will generate a 6-digit code. Save the setting.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/333_Firewall_2_Step_Joomla_Authentication_Code.jpg
+
+5. After this is set, the google authenticator app from your smart phone will generate a code every minute when you need to login, which makes your login highly secure. Even if a hacker knows your username and password, he will not able to access the site administration area without the google authenticator.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/337_Firewall_2_Step_WP_Login.jpg
+
 
 Ban Page SEO
 -------------------
@@ -55,38 +110,3 @@ After downloading the data, the full list of countries will be shown. You can ch
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/304_Country_List.jpg
 
-Brute Force Protection
------------------------------
-
-With the function enabled, a user’s account will be blocked when the maximum number of login attempts is reached within a given time period.
-
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/305_Bruteforce.jpg
-
-Google 2-Step Verification
-----------------------------------
-
-2-Step Google Authentication is only available for the WordPress and Joomla! currently. This function guarantees login security of a much higher level. Before the settings, you will need to install the Google Authenticator App on your mobile.
-
-First, enable **Google 2-Step Verification** in the tab ``Brute Force Protection``.
-
-Then for Joomla!, please go to the menu ``Users --> Manage``, edit the profile for the admin user in the tab ``Two Factor Authentication``. Set Authentication Method as **Google Authenticator** and follow the steps there to finalize the setup.
-
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/306_Authentication_Joomla.jpg
-
-For WordPress, please go to the menu ``Users`` and edit the admin account. In the section **Google Authenticator Settings**, set it Active. Click **Show/Hide QR code** to have the barcode showing and scan it with the mobile. Save the settings.
-
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/307_Authentication_WP.jpg
-
-After this is set, the google authenticator app from your smart phone will generate a code every minute, which makes your login highly secure. Even if a hacker knows your username and password, he will not able to access the site administrator area without the google authenticator code.
-
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/308_Authentication_Login.jpg
-
-Load Firewall Rules
---------------------
-
-After the setting is done, please double check the firewall rules are loaded. Please go to menu ``Firewall Settings --> Firewall Rules Fine-tuning``. In ``Advanced Firewall Rules``, there is a button showing Firewall Update allowing you to do a manual update, if you have subscribed to our premium service. Thereafter, the Rules will be automatically updated.
-
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/309_Advanced_Firewall_Rules.jpg
-
-
-The configuration is all done. Your sites are now under protection by the firewall system.
