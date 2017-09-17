@@ -1,4 +1,4 @@
-Configure Firewall Settings
+Configure Firewall Settings of Centrora Version 7
 ****************************
 
 Basic Firewall Settings

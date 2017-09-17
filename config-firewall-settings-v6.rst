@@ -1,4 +1,4 @@
-Configure Firewall Settings
+Configure Firewall Settings of Centrora Version 6
 ****************************
 
 Enable Centrora Firewall
