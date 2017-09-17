@@ -8,6 +8,10 @@ To enable the firewall and configure the basic settings, following the Wizard is
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/330_Firewall_Wizard.jpg
 
+After the setting is finished, the main panel will show the overall status of the firewall protection, where you can further adjust the settings based on your own needs.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/330_Firewall_Control_Panel.jpg
+
 Firewall Mode
 --------------------------
 
