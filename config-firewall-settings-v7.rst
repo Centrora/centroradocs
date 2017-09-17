@@ -25,7 +25,7 @@ This mode is recommended for users who want to keep a strict security standard a
 
 Filter mode works differently from Blocking mode and in a more friendly way for front-end users. This mode focuses more on filtering and cleaning malicious requests/queries instead of blocking the IPs thoroughly. Under this mode, all suspicious activities will be silently filter and are not able to enter the website, meanwhile, it will not block the user IPs to avoid the confusion for users who make false positives.
 
-However, it is important to note that this mode will still block users who perform attacks including:
+However, it is important to note that this mode will still block users who perform attacks including,
   1.	Spamming
   2.	Using malicious user agents
   3.	Malicious file uploads
@@ -95,18 +95,20 @@ For WordPress
 Ban Page SEO
 -------------------
 
-Edit SEO to make the Firewall SEO friendly in case the search engine indexing/crawling is filtered/blocked/affected. For example, if a Google crawler is blocked, it might not detect website data and show website information in the search result correctly. In this case, the Firewall will send SEO information that you have set here to Google. However, please note that this is only a temporary solution and the best way is to find out the reason of the false blocks and to whitelist the related rules or variables which cause the false alarms.
+Edit SEO in the menu ``Advance Settings`` --> ``SEO Configuration`` to make the Firewall SEO friendly in case the search engine indexing/crawling is filtered/blocked/affected. For example, if a Google crawler is blocked, it might not detect website data and show website information in the search result correctly. In this case, the Firewall will send SEO information that you have set here to Google. However, please note that this is only a temporary solution and the best way is to find out the reason of the false blocks and to whitelist the related rules or variables which cause the false alarms.
+
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/338_Firewall_SEO.jpg
 
 If parameter is set as OFF for search engine (Google, Yahoo, and MSN) bots, the Firewall will bypass all visits from the specific search engine, hence there will be no false blocks for that search engine. Nevertheless, it is worth noting that there is a small potential risk here. Our past experience has observed that some hackers can disguise their IPs and activities to make them look like from Google bots. Bypassing Google bots will allow the access of this kinds of hackers.
 
 Country Blocking
 -------------------
 
-This function allows you to block IPs from the specific countries. Please note that you need to download Country Database under the menu ``Firewall Settings --> Country Blocking`` before the function can be used.
+This function allows you to block IPs from the specific countries. Please note that you need to download Country Database under the menu ``Advance Settings`` --> ``Country Blocking`` before the function can be used.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/303_Download_Country_Date.jpg
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/339_Firewall_Download_Country_Date.jpg
 
-After downloading the data, the full list of countries will be shown. You can choose a country and use the Blacklist Country to block visits from a specific country.
+After downloading the data, the full list of countries will be shown. You can choose a country and make the shield icon to **Red** to block visits from a specific country. Moreover, if you set the shield as **green**, the country will not be scanned by the firewall and all IPs from the country can access the website without any monitor. A **yellow** means the country will be under the firewall's monitor normally.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/304_Country_List.jpg
+.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/340_Firewall_Country_List.jpg
 
