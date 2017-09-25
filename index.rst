@@ -44,6 +44,7 @@ The documentation for Centrora Security is organized into a couple of sections a
    install-wordpress
    install-joomla
    install-centrora-suite
+   update-existing-installation
    install-suite-whm
    install-suite-plesk
    activate-premium
