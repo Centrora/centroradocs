@@ -32,3 +32,18 @@ Once PDO is added to the PHP environment, issue will be resolved.
 
 .. error:: Connection failed:SQLSTATE[HY000] [2002] No such file or directory. Fatal error: Call to amember function prepare() on a non-object
 
+If you encounter this error, it means the PDO MySQLsocket might be missing on your server. Please upload an ``info.php`` file to the server with the codes::
+
+   <?php
+     phpinfo();
+   ?>
+
+Run the script through: *http://your_site_domain/info.php* to check the server PHP settings.
+
+Search for ``mysql.default_socket``,and you could find its value is  ``/var/run/mysqld/mysqld.sock``.
+
+Then search for ``pdo_mysql.default_socket``. It always returns a different value, for example ``/tmp/mysql.sock``. This is where the problem is. This directory might be missing or un-writable. The solution is to edit your server PHP settings to define::
+
+   pdo_mysql.default_socket = /var/run/mysqld/mysqld.sock
+
+Or please contact your host for the help if you are not allowed to change PHP settings on the server.
