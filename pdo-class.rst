@@ -1,6 +1,7 @@
-Fatal error: Class PDO not found
+Fatal error: Class PDO
 ************************************
 
+.. note:: Error Message: Class PDO not found
 
 If you encounter the error ``Fatal error: Class 'PDO' not found`` when the OSE Firewall is activated, this indicates the Class 'PHP Data Objects' is not loaded in your PHP environment. You can do a check to confirm if the class exists.
 
@@ -28,3 +29,6 @@ If you manage the server or know how to customize the PHP configurations, please
    extension = pdo_mysql.so
 
 Once PDO is added to the PHP environment, issue will be resolved.
+
+.. note:: Error Message: Connection failed:SQLSTATE[HY000] [2002] No such file or directory. Fatal error: Call to amember function prepare() on a non-object
+
