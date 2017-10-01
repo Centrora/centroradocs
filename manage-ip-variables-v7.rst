@@ -39,7 +39,7 @@ As the screenshot shows, you can find two important values ``Detected Variable``
 Whitelist Variables
 ------------------------------------------
 
-When you believe an IP is falsely logged and the variable is frequently falsely alerted, you can whitelist the variable in Variables Management. Go to the menu ``Centrora Firewall Main PanelAdvance Settings --> Variables Management``. Let’s still take the above test as example and assume it's a false alert. You can find all existing logged variables there and locate the one which we are going to whitelist based on the variable value “abc”. Choose the variable and use the “Ignore the Variable” button to whitelist it.
+When you believe an IP is falsely logged and the variable is frequently falsely alerted, you can whitelist the variable in Variables Management. Go to the menu ``Centrora Firewall Main Panel --> Advance Settings --> Variables Management``. Let’s still take the above test as example and assume it's a false alert. You can find all existing logged variables there and locate the one which we are going to whitelist based on the variable value “abc”. Choose the variable and use the “Ignore the Variable” button to whitelist it.
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/353_Whitelist_Variable.jpg
 
