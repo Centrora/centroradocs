@@ -23,8 +23,6 @@ We can also manage the IPs in the same menu with the functional buttons.
 * **Update Host**: To keep the host information of the IP up to date.
 * **Import/Export IP from/to CSV**: The tool for importing or exporting IP rules.
 
-.. _whitelist-variable:
-
 Check IP Record Details and Whitelist
 -------------------------------------
 
