@@ -111,9 +111,10 @@ The documentation for Centrora Security is organized into a couple of sections a
 
 .. toctree::
    :maxdepth: 2
-   :caption: Email
+   :caption: Email and Statistics
 
    email
+   statistics
 
 
 .. _troubleshooting:
