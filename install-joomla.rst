@@ -33,6 +33,7 @@ Also, please make sure the Centrora System system plugin is enabled. You can ena
 Congratulations!. Now the installation is done and we can continue the configurations.
 
 **Alternative Installation Method**
+---------------------------------------------------------
 
 If you have any troubles installing it using the above way, like the failed connection to our server or memory limit, please try the manual way to install it.
 
