@@ -1,6 +1,21 @@
 Changelog
 *****************************************
 
+7.0.2
+
+* Minor bug fixes for firewall scanner v7.
+* Minor bug fixes for core directory scanner.
+* Added new hash files.
+* Added missing language tags.
+* Fixed Wordpress centrora security badge.
+* Fixed cron job page to include git backup pre-requisite checks only when the user want to change the scheduled git backup settings.
+* Added new OEM.
+* Fixed links to update the plugin version
+
+7.0.1
+
+* Fixed missing v7 firewall file issue
+
 7.0.0
 
 * Added new feature: new improved, faster and efficient Firewall v7 scanner.
