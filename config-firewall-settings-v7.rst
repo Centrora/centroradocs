@@ -12,7 +12,7 @@ After the setting is finished, the main panel will show the overall status of th
 
 .. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/330_Firewall_Control_Panel.jpg
 
-Firewall Mode
+Firewall Protection Mode
 --------------------------
 
 There are three modes when the firewall detects suspicious activities.
