@@ -13,13 +13,13 @@ Every time a client attempts to connect to your server, it sends a message indic
 
 Blocking hundreds of the worst bots can ensure open-access for normal traffic, major search engines (Google, Bing, et al), good browsers (Chrome, Firefox, Opera, et al), and everyone else. Blocking malicious user agent can help you avoid traffics that are known to be associated with malicious activity
 
-* Checks Cross site scripting (XSS)
+* Checks Cross Site Scripting (XSS)
 
-XSS attacks occurs when an attacker uses a web application to send malicious codes in order to access cookies, session tokens or other sensitive information retained by the browser and used with the website, and rewrite contents of the html page. 
+XSS attacks occur when an attacker uses a web application to send malicious codes in order to access cookies, session tokens or other sensitive information retained by the browser and used with the website, and rewrite contents of the html page. 
 
 * Checks Cross Site Request Forgery (CSRF)
 
-CSRF is an attack that forces end users to execute unwanted actions in a web application in which they are currently authenticated. It could make end users to perform state changing requests like transferring funds, changing email addresses, or even compromisinge the entire web application. 
+CSRF is an attack that forces end users to execute unwanted actions in a web application in which they are currently authenticated. It could make end users perform state changing requests like transferring funds, changing email addresses, or even compromising the entire web application. 
 
 * Checks Basic DoS Attacks
 
@@ -33,7 +33,7 @@ Remote File Inclusion (RFI) is a type of vulnerability most often found on websi
 
 Direct File Inclusion / Local File Inclusion (LFI) is similar to a Remote File Inclusion vulnerability except instead of including remote files, only local files i.e. files on the current server can be included. The vulnerability is also due to the use of user-supplied input without proper validation. (Reference: WikiPedia)
 
-* Checks Formst String Attacks
+* Checks Format String Attacks
 
 The Format String exploit occurs when the submitted data of an input string is evaluated as a command by the application. Attackers may execute the code, read the stack, and cause a segmentation fault in the application which ultimately compromises the system.
 
@@ -47,7 +47,7 @@ It will call the file scanning function in the Dynamic Scanner to analyse the fi
 
 * Checks Basic Javascript Injection
 
-JavaScript injection is a nifty little technique that allows you to alter a sites contents without actually leaving the site. This can be very useful when say, you need to spoof the server by editing some form options. This includes I. Injection Basics, II. Cookie Editing and III. Form Editing
+JavaScript injection is a nifty little technique that allows you to alter a sites contents without actually leaving the site. This can be very useful when to say, you need to spoof the server by editing some form options. This includes I. Injection Basics, II. Cookie Editing and III. Form Editing
 
 * Checks Basic Database SQL Injection
 
