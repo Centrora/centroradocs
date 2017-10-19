@@ -13,6 +13,14 @@ Every time a client attempts to connect to your server, it sends a message indic
 
 Blocking hundreds of the worst bots can ensure open-access for normal traffic, major search engines (Google, Bing, et al), good browsers (Chrome, Firefox, Opera, et al), and everyone else. Blocking malicious user agent can help you avoid traffics that are known to be associated with malicious activity
 
+* Checks Cross site scripting (XSS)
+
+XSS attacks occurs when an attacker uses a web application to send malicious codes in order to access cookies, session tokens or other sensitive information retained by the browser and used with the website, and rewrite contents of the html page. 
+
+* Checks Cross Site Request Forgery (CSRF)
+
+CSRF is an attack that forces end users to execute unwanted actions in a web application in which they are currently authenticated. It could make end users to perform state changing requests like transferring funds, changing email addresses, or even compromisinge the entire web application. 
+
 * Checks Basic DoS Attacks
 
 This helps prevent your website against the HTTP Flood Attacks at the web application level. Massive crawling / scanning tools, HTTP Flood tools can be detected and blocked if it exceeds the defined thresholds / number of visits to your website in a specific time.
@@ -24,6 +32,18 @@ Remote File Inclusion (RFI) is a type of vulnerability most often found on websi
 * Checks Basic Direct File Inclusion
 
 Direct File Inclusion / Local File Inclusion (LFI) is similar to a Remote File Inclusion vulnerability except instead of including remote files, only local files i.e. files on the current server can be included. The vulnerability is also due to the use of user-supplied input without proper validation. (Reference: WikiPedia)
+
+* Checks Formet String Attacks
+
+The Format String exploit occurs when the submitted data of an input string is evaluated as a command by the application. Attackers may execute the code, read the stack, and cause a segmentation fault in the application which ultimately compromises the system.
+
+* Checks Inconsistent File Type Upload
+
+Uploaded files represent a significant risk to applications. Hackers can disguise the malicious codes into some common formats and upload them to the website to execute. The check on the file type will compare the real file type and the file extension in the name to filter out potential virus files.
+
+* Checks File Codes for Virus file
+
+It will call the file scanning function in the Dynamic Scanner to analyse the file codes. Files containing the codes violating specific virus signature/patterns will be blocked out.
 
 * Checks Basic Javascript Injection
 
@@ -37,6 +57,6 @@ SQL injection is a technique where malicious users can inject SQL commands into 
 
 A directory traversal (or path traversal) consists in exploiting insufficient security validation / sanitization of user-supplied input file names, so that characters representing “traverse to parent directory” are passed through to the file APIs. (Reference: WikiPedia)
 
-* Block Queries longer than 255 characters
+* Checks Brute force
 
-Queries that are more than 255 characters long can use a lot of resources and slow your site down for legitimate users.  Usually queries longer than 255 characters have “eval” or “base64″ methods in it. This is very likely that the codes are looking for a way to inject script on your site that could create a backdoor, launch spam or some other malicious activity.
+With Brute Force, attacker will be able to steal the login credentials of the website as well as the database.
