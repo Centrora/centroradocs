@@ -33,7 +33,7 @@ Remote File Inclusion (RFI) is a type of vulnerability most often found on websi
 
 Direct File Inclusion / Local File Inclusion (LFI) is similar to a Remote File Inclusion vulnerability except instead of including remote files, only local files i.e. files on the current server can be included. The vulnerability is also due to the use of user-supplied input without proper validation. (Reference: WikiPedia)
 
-* Checks Formet String Attacks
+* Checks Formst String Attacks
 
 The Format String exploit occurs when the submitted data of an input string is evaluated as a command by the application. Attackers may execute the code, read the stack, and cause a segmentation fault in the application which ultimately compromises the system.
 
@@ -59,4 +59,4 @@ A directory traversal (or path traversal) consists in exploiting insufficient se
 
 * Checks Brute force
 
-With Brute Force, attacker will be able to steal the login credentials of the website as well as the database.
+With Brute Force, attackerd will be able to steal the login credentials of the website as well as the database.
