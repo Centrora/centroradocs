@@ -66,7 +66,6 @@ The documentation for Centrora Security is organized into a couple of sections a
 
    config-firewall-settings-v6
    test-protection
-   centrora-firewall-rules
    manage-ip-variables-v6
    file-upload-check-v6
 
@@ -80,7 +79,7 @@ The documentation for Centrora Security is organized into a couple of sections a
    test-protection
    manage-ip-variables-v7
    file-upload-check-v7
-
+   centrora-firewall-rules
 
 
 .. _backup:
