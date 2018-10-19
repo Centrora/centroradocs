@@ -21,15 +21,15 @@ Instruction
 
 3- It will show a very simple panel where you can input the GitLab backup package information.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/520_Git_Restore_Page.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/520_Git_Restore_Page.jpg
 
 4- On the form, the Git URL can be found from your GitLab account. Go to the Personal projects menu in GitLab after login and go to the project which you want to restore.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/521_GitLab_Projects.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/521_GitLab_Projects.jpg
 
 On the project page, choose **HTTPS** and copy the link.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/522_Git_Package_Link.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/522_Git_Package_Link.jpg
 
 5- Then go back to the Git restore page. Fill the form and click `Restore from Git`. It will show the brief download progress. The download is complete when it shows **The git has been pulled successfully**. It will redirect to the database restoration page automatically.
 

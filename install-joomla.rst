@@ -7,7 +7,7 @@ The installation of Centrora plugin in a Joomla! website is quite easy. Please f
 
 Go to Joomla! administration installation page through Joomla! back-end --> menu ``Extensions`` --> ``Manage`` --> ``Install``. Then go to the tab ``Install from URL``.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/005_Joomla!_Install.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/005_Joomla!_Install.jpg
 
 **Step 2.**
 
@@ -17,18 +17,18 @@ Simply copy/paste the URL into the box::
 
 and click ``Check and Install`` button.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/006_Joomla!_Install_from_URL.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/006_Joomla!_Install_from_URL.jpg
 
 **Step 3.**
 
 After we get the installation success message, let's go to the menu ``Components`` --> ``Centrora Security`` to enter Centrora. On Centrora Panel, we need to install the database at ``Management`` --> ``Install/Uninstall`` for the first time installation.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/007_Joomla!_Install_DB.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/007_Joomla!_Install_DB.jpg
 
 **Step 4.**
 Also, please make sure the Centrora System system plugin is enabled. You can enable it by clicking the ``Fix it`` button if you see the notice message in the above Management menu. Or you can go to Joomla! Plugins Management, Joomla! ``Extensions`` --> ``Plugins`` and search for "Centrora". Enable it.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/008_Joomla!_Enable_Plugin.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/008_Joomla!_Enable_Plugin.jpg
 
 Congratulations!. Now the installation is done and we can continue the configurations.
 

@@ -9,11 +9,11 @@ First, after the Centrora Security installation, please go to the menu ``My Prem
 
 **Step 1.** If you have had an account with Centrora, please login directly at the left panel. If you don't have an account yet, please create a new one using the form at the right side or you can register the account on our website `www.centrora.com <http://www.centrora.com>`_. Then please login in Centrora with the new account.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/021_My%20Premium.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/021_My%20Premium.jpg
 
 **Step 2.**  After the login, all licenses in your account will be listed. Please use the button ``Activate`` to link the license to the website. It will automatically activate all premium functions and services in the current Centrora installation.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/022_Activate%20License.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/022_Activate%20License.jpg
 
 **Step 3.** If you don't have any licenses yet or all licenses have been used up, you might need to get more licenses. Please choose the proper license package in the store of Centrora website. After the subscription, please return to you Centrora ``My Premium`` and refresh the page. Licenses will show up and please follow the Step 2 above to activate the premium service.
 

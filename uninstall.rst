@@ -10,7 +10,7 @@ WordPress Version:
 2. Disable it in WordPress Plugins.
 3. Remove it.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/019_Uninstall.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/019_Uninstall.jpg
 
 Joomla! Version:
 -----------------

@@ -60,7 +60,7 @@ Now, you can scan all websites under the server /home folder when you access Cen
 
 First, please enter Centrora and go to the menu ``Management --> Firewall Activation Codes``.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/018_Suite_Activation_Codes.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/018_Suite_Activation_Codes.jpg
 
 Copy the codes there starting with ";Parameters". For the WHM installation, they are normally::
 

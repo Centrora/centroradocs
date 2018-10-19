@@ -8,7 +8,7 @@ Core Directories Scanner
 
 Core Directories Scanner will scan the website to compare the core system files with the original official package. Just click ``Start Scanning`` inthe menu ``Search for Malware --> Core Directories Scanner`` to do the scan. After a scan, it will report the files which are modified, removed, and suspicious compared to the original version. Take a Joomla! site as an example,
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/120_Core_Directories_Scan.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/120_Core_Directories_Scan.jpg
 
 .. note:: The result is just for the reference. It doesn't mean that the files listed in the result are the malware files. It's because site may have 3rd party extensions and libraries installed. So please review the files briefly to have more information. Or please `contact us <https://www.centrora.com/support>`_ for help.
 
@@ -24,11 +24,11 @@ In this case, the Modified File Scanner may help which can show the files modifi
 
 Go to the menu ``Search for Malware --> Modified File Scanner``, define the date range and the scan path. Then ``Start scanning``.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/121_Modified_File_Scanner.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/121_Modified_File_Scanner.jpg
 
 MD5 Hash Scanner
 -----------------
 
 MD5 Hash Scanner will scan the file MD5 Hash of the core system files to report the suspicions. Please update MD5 Hash database before the scan.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/122_MD5_Hash_Scanner.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/122_MD5_Hash_Scanner.jpg

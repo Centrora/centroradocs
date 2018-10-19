@@ -10,11 +10,11 @@ Please follow the below steps to set it up and refer to the videos for how to en
 
 When you use Git Backup for the first time, it needs to initialise the database and function. If all requirement checks are fulfilled, the Dashboard of Git Backup will automatically show the button ``Enable GitBackup 'Now'``. Click the button and the system will do the first backup.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/500_Enable_Git_Backup.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/500_Enable_Git_Backup.jpg
 
 After it's done, it shows the result of the first backup. The first backup will be named as "Initial Local Backup:" by default. Take a Joomla! site as the example, the backup list each core directory of the root separately to ensure the stability.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/501_First_Backup.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/501_First_Backup.jpg
 
 You can also check the video about how to enable Git Backup.
 
@@ -28,11 +28,11 @@ You can also check the video about how to enable Git Backup.
 
 Now we can make a new backup at any time. The backup will be much faster then the initial backup because the Git technology only track and commit the changes from the initial one. Click the button ``Create local backup`` to make a new backup and here we can name the backup.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/502_Create_Local_Backup.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/502_Create_Local_Backup.jpg
 
 After it's done, the new backup will be added to the list. Please note that in the new backup,only the changed directories from the last backup are listed.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/503_New_Backup.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/503_New_Backup.jpg
 
 .. raw:: html
 
@@ -45,7 +45,7 @@ After it's done, the new backup will be added to the list. Please note that in t
 
 With the Git backup, we can easily track all changed files from the last backup. Click the ``Information``button following a backup to have all changed files in the specific directory listed in a pop-out window.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/504_File_Changes.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/504_File_Changes.jpg
 
 .. raw:: html
 
@@ -61,26 +61,26 @@ Rolling back the website to a previous status is every easy, generally in second
 * No - Only restore the file system to the previous backup while keep the database unchanged.
 * Yes - It will restore both the file system and database to the previous state.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/505_Restore.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/505_Restore.jpg
 
 5. Upload to Cloud
 ------------------------------------------------
 
 The backup can be uploaded to Cloud so that you can keep the backup safely even when the server gets any problem. Now Centrora Backup integrates with GitLab which provides up to 10GB space for each repository. If you have multiple websites, it can create multiple repositories under the same account. The number of repositories is unlimited. Please create an account on `GitLab Website <https://gitlab.com/users/sign_in#register-pane>`_ first if you don't have a GitLab account yet.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/507_GitLab_Account.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/507_GitLab_Account.jpg
 
 After the account is created, please to the ``Settings`` --> ``Account`` menu to get the information of **Username** and **Private Token**. These two values are used to login you account in Centrora, and also Username is very important to define the web link where you can access all your existing repositories.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/508_Private_Token.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/508_Private_Token.jpg
 
 Now, go back to Centrora Git Backup page and login with the above account.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/506_Login_Cloud.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/506_Login_Cloud.jpg
 
 If there are changes on teh website from the last backup, it will also ask you to create and name a new backup first. Then the upload will automatically start. After it completes, you can find the backup has been uploaded to your account on GitLab at: https://gitlab.com/users/**your_username**/projects.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/509_Repository.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/509_Repository.jpg
 
 Now the website is backed-up successfully on both local and cloud with Git. You can rescue the website with the backup easily from any emergency. If your server crashes or the website is totally down and you need a complete restoration, please refer to the guidance of ":ref: `restore-website-from-cloud`".
 

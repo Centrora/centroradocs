@@ -13,25 +13,25 @@ Login Plesk control panel, in "Domains" add a new domain for the Centrora Securi
 
 .. note:: The user account name must NOT be "centrora". You can use other account names like "suiteplesk".
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/031_Plesk_Account.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/031_Plesk_Account.jpg
 
 2. Create new database and user.
 ---------------------------------
 
 Once the domain is created, access its management panel, and go to "Database" section to create a new database and user account for Centrora Security.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/032_Plesk_Database.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/032_Plesk_Database.jpg
 
 3. Upload Centrora Suite files.
 -------------------------------------------------
 
 Download the Centrora Suite version from the website: `https://www.centrora.com/download/ <https://www.centrora.com/download/>`_ --> Download Standalone version. Upload the package  to the previous domain path in Plesk --> Manage the domain --> File Manager.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/033_Upload_Package.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/033_Upload_Package.jpg
 
 Then extract the package and it will create a new folder ``centrora-suite-master``. Enter the folder and move all files there to the root (httpdocs).
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/034_Move_Files.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/034_Move_Files.jpg
 
 4. Install Centrora Security Suite in the account.
 ---------------------------------------------------
@@ -71,7 +71,7 @@ In the above code, please replace **suiteplesk.your_domain.com** with the real d
 
 A new extension "Centrora Security" will show up in Plesk Extensions menu.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/035_Extensions.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/035_Extensions.jpg
 
 We can access Centrora Security and do the management through this portal in teh future.
 
@@ -95,7 +95,7 @@ Now, we can scan all websites under the server /var/www/vhosts folder when we ac
 
 First, please enter Centrora and go to the menu ``Management --> Firewall Activation Codes``.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/036_Plesk_Activation_Code.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/036_Plesk_Activation_Code.jpg
 
 Copy the codes::
 
@@ -103,7 +103,7 @@ Copy the codes::
 
 and insert the line into the ``PHP Settings`` of the domain which we are going to protect.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/037_Insert_Activation_Codes.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/037_Insert_Activation_Codes.jpg
 
 Also, add the path::
 
@@ -111,6 +111,6 @@ Also, add the path::
 
 into the parameter ``open_basedir``.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/038_open_basedir.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/038_open_basedir.jpg
 
 Now, we can do a test to confirm the protection works following: :ref:`test-protection`.

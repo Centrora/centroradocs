@@ -28,9 +28,9 @@ Check IP Record Details and Whitelist
 
 Generally we need to check the IP record details to find the reason for being logged in IP Control to judge if it’s a real hacking attack or a false alert, especially when you just start using the Firewall system. Based on the detailed information, you can whitelist the false alerted variables to make the system fit your site’s functions and make it more stable. To do this, please click on Action following an IP to review the details first.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/311_IP_List.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/311_IP_List.jpg
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/312_IP_Details.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/312_IP_Details.jpg
 
 As the screenshot shows, you can find two important values ``Detected Variable`` and ``Detected Content``. From the example of test with index.php?a=%27union, the variable is “get.a” and the blocked content is “union”. You can know it's a hacking attack from the blocked content. If the content is some legitimate text, for example you submit some text in the article which contains a sensitive word falsely alerted, you need to set the IP as “Monitored” and also whitelist the Variable in Variables Management to avoid it happening again in the future.
 
@@ -39,7 +39,7 @@ Whitelist Variables
 
 When you believe an IP is falsely logged and the variable is frequently falsely alerted, you can whitelist the variable in Variables Management. Go to the menu ``Firewall Setting --> Variables Fine-tuning``. Let’s still take the above test as example and assume it's a false alert. You can find all existing logged variables there and locate the one which we are going to whitelist based on the variable value “a”. Choose the variable and use the “Ignore the Variable” button to whitelist it.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/313_Whitelist_Variable.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/313_Whitelist_Variable.jpg
 
 In the Variables Management section, each variable also has 3 possible states to choose from.
 
@@ -52,4 +52,4 @@ Load Default Whitelist Variables
 
 We strongly recommend you to load the default whitelist variables to reduce the number of false blocks for a normal website.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/314_Load_Default_Variables.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/314_Load_Default_Variables.jpg

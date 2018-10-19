@@ -10,7 +10,7 @@ Switch On/Off File Upload Validation
 
 If there is no *FILEINFO* on the server or if you have any trouble uploading files even with the extensions whitelisted, please disable the function in the menu ``Firewall Main Panel --> File Upload Control``.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/355_File_Upload_Validation.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/355_File_Upload_Validation.jpg
 
 Configuration
 --------------------------
@@ -18,6 +18,6 @@ Configuration
 First, the feature will only allow the files to be uploaded with extensions that you mark as **Allowed**. Also, it will scan the extension of the uploaded files to check the consistency of its extension and the real type. This will block the files with hacking codes embedded.
 Please configure the settings in the menu ``Advance Settings --> File Extension Control Table``. The extensions with a green check are allowed to make uploads while those with a red cross are not. You can also add more extensions if the default list doesn't include your file type.
 
-.. image:: https://cdn.protect-website.co/centrora_web/images/Tutorials/356_File_Extension_List.jpg
+.. image:: https://cdn.centrora.com.au/images/Tutorials/356_File_Extension_List.jpg
 
 In the menu ``File Upload Logs``, you can check all the files uploaded/blocked with the function enabled. When the site has any anomaly, you might need to investigate all the changes made to the site within a certain period of time, and this can be helped by the log.
