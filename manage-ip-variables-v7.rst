@@ -3,6 +3,8 @@ Manage IPs and Variables
 
 From Centrora Version 7, the IP records and Logs can be easily found in the menu  ``IP Management`` from the Firewall V7 main panel.
 
+.. image:: https://cdn.centrora.com.au/images/Tutorials/602_IP_Management_v7.png
+
 IP Status
 --------------
 
